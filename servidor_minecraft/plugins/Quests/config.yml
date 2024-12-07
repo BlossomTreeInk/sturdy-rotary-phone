@@ -1,5 +1,6 @@
 # See https://pikamug.gitbook.io/quests/setup/configuration
 
+prevent-exploit: true
 accept-timeout: 20
 allow-command-questing: true
 allow-command-quests-with-npcs: false

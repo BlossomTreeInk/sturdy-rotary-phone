@@ -1,24 +1,24 @@
 {
   "tcp_alloc": {
     "allowed": 6,
-    "claimed": 1,
-    "desired": 1
+    "claimed": 2,
+    "desired": 2
   },
   "tunnels": [
     {
       "active": true,
       "alloc": {
         "data": {
-          "assigned_domain": "metal-titanium.gl.joinmc.link",
-          "assigned_srv": "metal-titanium.gl.joinmc.link",
+          "assigned_domain": "carolina-geographic.gl.joinmc.link",
+          "assigned_srv": "carolina-geographic.gl.joinmc.link",
           "assignment": {
             "type": "shared-ip"
           },
-          "id": "15f94283-3a96-44b5-abd2-78e93b5f4d5f",
+          "id": "dae1e966-ca9f-44b7-aae1-82dad8edd4d3",
           "ip_hostname": "24.ip.gl.ply.gg",
           "ip_type": "both",
-          "port_end": 7395,
-          "port_start": 7394,
+          "port_end": 21434,
+          "port_start": 21433,
           "region": "global",
           "static_ip4": "147.185.221.24",
           "static_ip6": "2602:fbaf:0:1::18",
@@ -26,17 +26,17 @@
         },
         "status": "allocated"
       },
-      "created_at": "2024-12-07T15:42:31.674787Z",
+      "created_at": "2024-12-07T19:21:11.985670Z",
       "disabled_reason": null,
       "domain": null,
       "expire_notice": null,
       "firewall_id": null,
-      "id": "ec720105-d4df-4f8d-b6bf-ba6bd8c10d70",
+      "id": "29f44abe-1fb9-4b71-b38c-4184f0473fb7",
       "name": "Minecraft Java",
       "origin": {
         "data": {
-          "agent_id": "41f70d59-ad6c-4e00-b6d1-d834d1ad1c74",
-          "agent_name": "Wachaland Enchanted",
+          "agent_id": "00bd6bfb-24ee-4898-9533-8e07c713331b",
+          "agent_name": "Wch Lolo",
           "local_ip": "127.0.0.1",
           "local_port": 25565
         },
@@ -56,34 +56,81 @@
       "active": true,
       "alloc": {
         "data": {
-          "assigned_domain": "huge-checkout.gl.at.ply.gg",
+          "assigned_domain": "shows-diagram.gl.at.ply.gg",
           "assigned_srv": null,
           "assignment": {
             "type": "shared-ip"
           },
-          "id": "db5850e0-3ee3-413a-aaef-bfba6e8400d8",
-          "ip_hostname": "21.ip.gl.ply.gg",
+          "id": "5e3a1db5-4dc3-4ad4-87c9-9c9c5ceefa52",
+          "ip_hostname": "24.ip.gl.ply.gg",
           "ip_type": "both",
-          "port_end": 1109,
-          "port_start": 1108,
+          "port_end": 21437,
+          "port_start": 21436,
           "region": "global",
-          "static_ip4": "147.185.221.21",
-          "static_ip6": "2602:fbaf:0:1::15",
-          "tunnel_ip": "2602:fbaf:0:1::15"
+          "static_ip4": "147.185.221.24",
+          "static_ip6": "2602:fbaf:0:1::18",
+          "tunnel_ip": "2602:fbaf:0:1::18"
         },
         "status": "allocated"
       },
-      "created_at": "2024-12-07T15:42:49.710881Z",
+      "created_at": "2024-12-07T19:21:46.247107Z",
       "disabled_reason": null,
       "domain": null,
       "expire_notice": null,
       "firewall_id": null,
-      "id": "6b620039-278d-4f38-963e-2c2143ccc626",
+      "id": "e8d14c3d-e6d3-43d3-a4b5-65c58b58ce8d",
+      "name": "unnamed",
+      "origin": {
+        "data": {
+          "agent_id": "00bd6bfb-24ee-4898-9533-8e07c713331b",
+          "agent_name": "Wch Lolo",
+          "local_ip": "127.0.0.1",
+          "local_port": 21436
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "both",
+      "proxy_protocol": null,
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": null
+    },
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "send-comparing.gl.at.ply.gg",
+          "assigned_srv": null,
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "4fdac2b0-8854-4d40-a5e8-5eebdd7b66e2",
+          "ip_hostname": "24.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 1896,
+          "port_start": 1895,
+          "region": "global",
+          "static_ip4": "147.185.221.24",
+          "static_ip6": "2602:fbaf:0:1::18",
+          "tunnel_ip": "2602:fbaf:0:1::18"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-12-07T19:24:41.172786Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "89fa5122-6c74-48bb-a1dc-77332ebd4322",
       "name": "Minecraft Bedrock",
       "origin": {
         "data": {
-          "agent_id": "41f70d59-ad6c-4e00-b6d1-d834d1ad1c74",
-          "agent_name": "Wachaland Enchanted",
+          "agent_id": "00bd6bfb-24ee-4898-9533-8e07c713331b",
+          "agent_name": "Wch Lolo",
           "local_ip": "127.0.0.1",
           "local_port": 19132
         },
@@ -102,7 +149,7 @@
   ],
   "udp_alloc": {
     "allowed": 6,
-    "claimed": 1,
-    "desired": 1
+    "claimed": 2,
+    "desired": 2
   }
 }

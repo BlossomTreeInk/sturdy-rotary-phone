@@ -1,348 +1,363 @@
-[17:41:04] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[17:41:04] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
-[17:41:04] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[17:41:05] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/DecentHolograms-2.8.12.jar'...
-[17:41:05] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/GSit-1.12.0.jar'...
-[17:41:05] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/TabList-bukkit-v5.7.7.jar'...
-[17:41:05] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
-[17:41:07] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/TabList-bukkit-v5.7.7.jar' in 1652ms.
-[17:41:07] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/GSit-1.12.0.jar' in 2018ms.
-[17:41:07] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/DecentHolograms-2.8.12.jar' in 2137ms.
-[17:41:09] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 3357ms.
-[17:41:10] [ServerMain/INFO]: [PluginInitializerManager] Initialized 17 plugins
-[17:41:10] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
- - FancyNpcs (2.2.0.177)
-[17:41:10] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (16):
- - DecentHolograms (2.8.12), GSit (1.12.0), Geyser-Spigot (2.4.0-SNAPSHOT), Multiverse-Core (4.3.12), Multiverse-Inventories (4.2.6), Multiverse-Portals (4.2.3), PlaceholderAPI (2.11.6), Quests (5.0.5-b480), SkBee (3.5.7), SkinsRestorer (15.4.4), Skript (2.9.0), TabList (5.7.7), ViaBackwards (5.0.2-SNAPSHOT), ViaVersion (5.0.2-SNAPSHOT), floodgate (2.2.3-SNAPSHOT (b109-49bd564)), stamina (11.0.0)
-[17:41:17] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:41:20] [ServerMain/INFO]: Loaded 1337 recipes
-[17:41:20] [ServerMain/INFO]: Loaded 1448 advancements
-[17:41:20] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[17:41:20] [Server thread/INFO]: Loading properties
-[17:41:20] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
-[17:41:21] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[17:41:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:41:21] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:41:21] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[17:41:21] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[17:41:22] [Server thread/INFO]: Default game type: SURVIVAL
-[17:41:22] [Server thread/INFO]: Generating keypair
-[17:41:22] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:41:22] [Server thread/INFO]: Using epoll channel type
-[17:41:22] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[17:41:22] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[17:41:23] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.2-SNAPSHOT
-[17:41:23] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.2-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
-[17:41:24] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[17:41:24] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[17:41:25] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[17:41:25] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[17:41:25] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
-[17:41:25] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b109-49bd564)
-[17:41:26] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[17:41:26] [Server thread/INFO]: [floodgate] Took 878ms to boot Floodgate
-[17:41:26] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[17:41:26] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.2-SNAPSHOT
-[17:41:26] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.9.0
-[17:41:26] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v4.2.6
-[17:41:26] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.4
-[17:41:26] [Server thread/INFO]: [TabList] Loading server plugin TabList v5.7.7
-[17:41:26] [Server thread/INFO]: [FancyNpcs] Loading server plugin FancyNpcs v2.2.0.177
-[17:41:26] [Server thread/WARN]: [FancyNpcs] --------------------------------------------------
-[17:41:26] [Server thread/WARN]: [FancyNpcs] Unsupported minecraft server version.
-[17:41:26] [Server thread/WARN]: [FancyNpcs] Please update the server to 1.19.4 / 1.20 / 1.20.1 / 1.20.2 / 1.20.3 / 1.20.4 / 1.20.5 / 1.20.6 / 1.21.
-[17:41:26] [Server thread/WARN]: [FancyNpcs] Disabling the FancyNpcs plugin.
-[17:41:26] [Server thread/WARN]: [FancyNpcs] --------------------------------------------------
-[17:41:26] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.5.7
-[17:41:26] [Server thread/INFO]: [Quests] Loading server plugin Quests v5.0.5-b480
-[17:41:26] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.4.0-SNAPSHOT
-[17:41:26] [Server thread/WARN]: [Geyser-Spigot] Missing locale: en_
-[17:41:27] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[17:41:27] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[17:41:27] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v4.2.3
-[17:41:27] [Server thread/INFO]: [stamina] Loading server plugin stamina v11.0.0
-[17:41:27] [Server thread/INFO]: [stamina] WorldGuard not found. Some features will be disabled.
-[17:41:27] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.12.0
-[17:41:27] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.12
-[17:41:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:41:27] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.4
-[17:41:28] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[17:41:28] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.3.
-[17:41:28] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[17:41:29] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[17:41:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.4.4]
-[17:41:29] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
-[17:41:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:41:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:41:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:41:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:41:29] [Server thread/INFO]: Preparing level "world"
-[17:41:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[17:41:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[17:41:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[17:41:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[17:41:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[17:41:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[17:41:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[17:41:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.4
-[17:41:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dc501c7
-[17:41:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[17:41:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[17:41:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[17:41:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[17:41:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:41:30] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[17:41:31] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 809.7ms
-[17:41:31] [Server thread/INFO]: Preparing spawn area: 0%
-[17:41:31] [Server thread/INFO]: Preparing spawn area: 0%
-[17:41:31] [Server thread/INFO]: Preparing spawn area: 0%
-[17:41:31] [Server thread/INFO]: Preparing spawn area: 0%
-[17:41:32] [Server thread/INFO]: Preparing spawn area: 0%
-[17:41:32] [Server thread/INFO]: Preparing spawn area: 0%
-[17:41:32] [Server thread/INFO]: Time elapsed: 2819 ms
-[17:41:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:41:32] [Server thread/INFO]: Preparing spawn area: 0%
-[17:41:33] [Server thread/INFO]: Preparing spawn area: 48%
-[17:41:33] [Server thread/INFO]: Time elapsed: 613 ms
-[17:41:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:41:33] [Server thread/INFO]: Preparing spawn area: 0%
-[17:41:33] [Server thread/INFO]: Time elapsed: 191 ms
-[17:41:33] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.2-SNAPSHOT
-[17:41:33] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: Unknown (768) (768)
-[17:41:33] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
-[17:41:33] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
-[17:41:33] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
-[17:41:33] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://viaversion.com/setup
-[17:41:33] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
-[17:41:33] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
-[17:41:33] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[17:41:33] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[17:41:34] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
-[17:41:34] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[17:41:34] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[17:41:34] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b109-49bd564)
-[17:41:35] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[17:41:35] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[17:41:35] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.2-SNAPSHOT
-[17:41:35] [Server thread/INFO]: [Skript] Enabling Skript v2.9.0
-[17:41:36] [Thread-11/INFO]: [Skript] A new version of Skript is available: 2.9.5 (you're currently running 2.9.0)
-[17:41:36] [Thread-11/INFO]: Download it at: <aqua><u><link:https://github.com/SkriptLang/Skript/releases/download/2.9.5/Skript-2.9.5.jar>https://github.com/SkriptLang/Skript/releases/download/2.9.5/Skript-2.9.5.jar
-[17:41:57] [Server thread/INFO]: [Skript] Loaded 233164 aliases in 20787ms
-[17:41:58] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[17:41:58] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v4.2.6
-[17:41:58] [Server thread/INFO]: [Multiverse-Inventories 4.2.6] enabled.
-[17:41:58] [Server thread/INFO]: [TabList] Enabling TabList v5.7.7
-[17:41:58] [Server thread/ERROR]: [TabList] Your server version does not supported 1.21.3-R0.1-SNAPSHOT
-[17:41:58] [Server thread/INFO]: [TabList] Disabling TabList v5.7.7
-[17:41:58] [Server thread/INFO]: [FancyNpcs] Enabling FancyNpcs v2.2.0.177
-[17:41:58] [Server thread/INFO]: [SkBee] Enabling SkBee v3.5.7
-[17:41:59] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[17:41:59] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.3! Trying to find NMS support
-[17:41:59] [Server thread/INFO]: [SkBee] Failed to load NBTApi!
-[17:41:59] [Server thread/INFO]: [SkBee] NBT Elements DISABLED!
-[17:41:59] [Server thread/INFO]: [SkBee]  - Your server version [1.21.3] is not currently supported by the NBT-API
-[17:41:59] [Server thread/INFO]: [SkBee]  - This is not a bug!
-[17:41:59] [Server thread/INFO]: [SkBee]  - NBT elements will resume once the API is updated to work with [1.21.3]
-[17:41:59] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[17:41:59] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[17:41:59] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[17:41:59] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[17:41:59] [Server thread/INFO]: [SkBee] Damage Source elements successfully loaded
-[17:41:59] [Server thread/INFO]: [SkBee] Display Entity elements successfully loaded
-[17:41:59] [Server thread/INFO]: [SkBee] Fishing elements successfully loaded
-[17:41:59] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[17:41:59] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[17:41:59] [Server thread/INFO]: [SkBee] RayTrace elements successfully loaded
-[17:41:59] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[17:41:59] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[17:41:59] [Server thread/INFO]: [SkBee] Scoreboard Objective Elements successfully loaded
-[17:41:59] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[17:41:59] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[17:41:59] [Server thread/INFO]: [SkBee] Minecraft Tag elements successfully loaded
-[17:41:59] [Server thread/INFO]: [SkBee] Team Elements successfully loaded
-[17:41:59] [Server thread/INFO]: [SkBee] Tick Manager elements successfully loaded
-[17:41:59] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[17:41:59] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[17:41:59] [Server thread/INFO]: [SkBee] World Border Elements successfully loaded
-[17:41:59] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[17:41:59] [Server thread/INFO]: [SkBee] Chunk Generator Elements disabled via config
-[17:41:59] [Server thread/INFO]: [SkBee] Loaded (386) elements:
-[17:41:59] [Server thread/INFO]: [SkBee]  - 55 events
-[17:41:59] [Server thread/INFO]: [SkBee]  - 60 effects
-[17:41:59] [Server thread/INFO]: [SkBee]  - 235 expressions
-[17:41:59] [Server thread/INFO]: [SkBee]  - 25 conditions
-[17:41:59] [Server thread/INFO]: [SkBee]  - 11 sections
-[17:41:59] [Server thread/INFO]: [SkBee] Checking for update...
-[17:41:59] [Server thread/INFO]: [SkBee] Plugin is not up to date!
-[17:41:59] [Server thread/INFO]: [SkBee]  - Current version: v3.5.7
-[17:41:59] [Server thread/INFO]: [SkBee]  - Available update: v3.6.1
-[17:41:59] [Server thread/INFO]: [SkBee]  - Download available at: https://github.com/ShaneBeee/SkBee/releases
-[17:41:59] [Server thread/INFO]: [SkBee] Successfully enabled v3.5.7 in 0.78 seconds
-[17:41:59] [Server thread/INFO]: [Quests] Enabling Quests v5.0.5-b480
-[17:41:59] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[17:42:08] [Server thread/WARN]: [Quests] LocaleLib not present! Is this a debug environment?
-[17:42:08] [Server thread/INFO]: [Quests] Loaded language en-US. Translations via Crowdin
-[17:42:08] [Server thread/INFO]: [Quests] Loading storage implementation: YAML
-[17:42:08] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.4.0-SNAPSHOT
-[17:42:08] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.2.3
-[17:42:08] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
-[17:42:08] [Server thread/INFO]: [Multiverse-Portals 4.2.3]  Enabled - By Rigby and fernferret
-[17:42:08] [Server thread/INFO]: [stamina] Enabling stamina v11.0.0
-[17:42:09] [Server thread/INFO]: [stamina] Core Service loaded
-[17:42:09] [Server thread/INFO]: [stamina] Core event loaded
-[17:42:09] [Server thread/INFO]: [stamina] Stamina Core loaded!
-[17:42:09] [Server thread/INFO]: [stamina] Stamina by ironPhil24k Has been loaded!
-[17:42:09] [Server thread/INFO]: [stamina] Stamina Load config...
-[17:42:09] [Server thread/INFO]: [stamina] Stamina Load Language File...
-[17:42:09] [Server thread/INFO]: [stamina] Stamina Load playerdata...
-[17:42:09] [Server thread/WARN]: [stamina] Vault not found, staminaupgrade and staminaedit and the gui commands will not be available.
-[17:42:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: stamina [11.0.0]
-[17:42:09] [Server thread/INFO]: [GSit] Enabling GSit v1.12.0
-[17:42:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [1.12.0]
-[17:42:09] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
-[17:42:09] [Server thread/INFO]: [GSit] Link with PlaceholderAPI successful!
-[17:42:09] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.12
-[17:42:09] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.3! Trying to find NMS support
-[17:42:09] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R2' loaded!
-[17:42:09] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
-[17:42:09] [Server thread/INFO]: [spark] Starting background profiler...
-[17:42:09] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[17:42:09] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[17:42:09] [Server thread/INFO]: [Geyser-Spigot] 
-[17:42:09] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.4.0-b609 (git-master-669a76c)
-[17:42:09] [Server thread/INFO]: [Geyser-Spigot] 
-[17:42:09] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[17:42:14] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
-[17:42:14] [Server thread/INFO]: [Geyser-Spigot] Done (4.87s)! Run /geyser help for help!
-[17:42:14] [Server thread/INFO]: Done preparing level "world" (45.640s)
-[17:42:14] [Server thread/INFO]: Running delayed init tasks
-[17:42:15] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[17:42:15] [Craft Scheduler Thread - 8 - DecentHolograms/INFO]: [DecentHolograms] Created directory plugins/DecentHolograms/holograms
-[17:42:15] [Craft Scheduler Thread - 9 - DecentHolograms/INFO]: [DecentHolograms] Created directory plugins/DecentHolograms/animations
-[17:42:15] [Thread-17/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 1.21.50. Download it here: https://geysermc.org/download
-[17:42:15] [Server thread/INFO]: [Skript] Loading variables...
-[17:42:15] [Craft Scheduler Thread - 7 - Quests/INFO]: [Quests] §2Update to 5.1.5: §bhttps://github.com/PikaMug/Quests
-[17:42:15] [Server thread/INFO]: [Skript] Loaded 0 variables in 0.0 seconds
-[17:42:15] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[17:42:15] [Server thread/INFO]: [Skript]     No scripts were found, maybe you should write some ;)
-[17:42:15] [Server thread/INFO]: [Skript] Finished loading.
-[17:42:15] [Craft Scheduler Thread - 5 - stamina/INFO]: [stamina] You are running the last version of stamina :)
-[17:42:15] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[17:42:15] [Server thread/WARN]: [Geyser-Spigot] You are using an outdated version of ViaVersion; please download the newest version from https://ci.viaversion.com/job/ViaVersion/
-[17:42:15] [Server thread/INFO]: [Multiverse-Inventories] First run!
-[17:42:15] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.2.0, you're on: 5.0.2-SNAPSHOT
-[17:42:15] [Server thread/INFO]: Done (72.014s)! For help, type "help"
-[17:42:15] [Server thread/INFO]: [Quests] Loaded 4 Quest(s), 7 Action(s), 1 Condition(s) and 797 Phrase(s)
-[17:46:27] [User Authenticator #0/INFO]: UUID of player LukakuMT is 4596fc55-df8e-3463-b1c8-b5d46d33857b
-[17:46:29] [Server thread/INFO]: LukakuMT joined the game
-[17:46:29] [Server thread/INFO]: LukakuMT[/127.5.19.232:41403] logged in with entity id 119 at ([world]39.13801905216124, 92.0, 18.051913570834085)
-[17:46:35] [Server thread/INFO]: LukakuMT issued server command: /gamemode creative
-[17:46:36] [Server thread/INFO]: [LukakuMT: Set own game mode to Creative Mode]
-[17:48:38] [Server thread/INFO]: LukakuMT issued server command: /gamemode survival
-[17:48:38] [Server thread/INFO]: [LukakuMT: Set own game mode to Survival Mode]
-[17:51:14] [Async Chat Thread - #0/INFO]: [Not Secure] <LukakuMT> 🗣️🛠️👮‍♀️🏃‍➡️🏃‍♂️‍➡️🏃‍♀️‍➡️🏃‍♀️🏃‍♂️🏃🚶🚶‍♂️🏃⛹️⛹️‍♂️🤾🤾💨
-[17:51:21] [Async Chat Thread - #0/INFO]: [Not Secure] <LukakuMT> 🗣️🛠️👮‍♀️🏃‍➡️🏃‍♂️‍➡️🏃‍♀️‍➡️🏃‍♀️🏃‍♂️🏃🚶🚶‍♂️🏃⛹️⛹️‍♂️🤾🤾💨
-[17:51:22] [Async Chat Thread - #0/INFO]: [Not Secure] <LukakuMT> 🏃
-[17:52:22] [Server thread/INFO]: LukakuMT issued server command: /gamemode creative
-[17:52:22] [Server thread/INFO]: [LukakuMT: Set own game mode to Creative Mode]
-[17:53:36] [Server thread/INFO]: LukakuMT issued server command: /staminareload
-[17:53:44] [Server thread/INFO]: LukakuMT issued server command: /gamemode survival
-[17:53:44] [Server thread/INFO]: [LukakuMT: Set own game mode to Survival Mode]
-[17:54:09] [Server thread/INFO]: LukakuMT issued server command: /gamemode creative
-[17:54:09] [Server thread/INFO]: [LukakuMT: Set own game mode to Creative Mode]
-[17:54:16] [Server thread/INFO]: LukakuMT issued server command: /skin
-[17:55:13] [Server thread/INFO]: LukakuMT issued server command: /skin url "https://novask.in/6418233627" slim
-[17:55:36] [Server thread/INFO]: LukakuMT issued server command: /skin url "https://t.novaskin.me/c9a4e66da37f716b60e25de87d3b7ce983b4aae9f4ee6bfc4f5776677d5d67dc" slim
-[17:56:01] [Server thread/INFO]: LukakuMT issued server command: /skin url "https://p.novaskin.me/6418233627.png" slim
-[17:56:26] [Async Chat Thread - #2/INFO]: [Not Secure] <LukakuMT> https://novask.in/6418233627
-[17:56:32] [Server thread/INFO]: LukakuMT issued server command: /skin url "https://novask.in/6418233627" slim
-[17:56:54] [Async Chat Thread - #2/INFO]: [Not Secure] <LukakuMT> https://t.novaskin.me/c9a4e66da37f716b60e25de87d3b7ce983b4aae9f4ee6bfc4f5776677d5d67dc
-[17:57:03] [Server thread/INFO]: LukakuMT issued server command: /skin url "https://t.novaskin.me/c9a4e66da37f716b60e25de87d3b7ce983b4aae9f4ee6bfc4f5776677d5d67dc" classic
-[17:57:11] [Server thread/INFO]: LukakuMT issued server command: /skin url "https://t.novaskin.me/c9a4e66da37f716b60e25de87d3b7ce983b4aae9f4ee6bfc4f5776677d5d67dc" slim
-[17:57:32] [Server thread/INFO]: LukakuMT issued server command: /skin url "https://p.novaskin.me/6418233627.png" slim
-[17:57:54] [Server thread/INFO]: LukakuMT issued server command: /skin url "https://t.novaskin.me/c9a4e66da37f716b60e25de87d3b7ce983b4aae9f4ee6bfc4f5776677d5d67dc" slim
-[17:59:04] [Server thread/INFO]: LukakuMT issued server command: /skin url "https://i.imgur.com/AxjjUrU.png" slim
-[18:00:16] [Server thread/INFO]: LukakuMT has made the advancement [Monster Hunter]
-[18:00:27] [Async Chat Thread - #4/INFO]: [Not Secure] <LukakuMT> https://i.imgur.com/AxjjUrU.png
-[18:00:40] [Server thread/INFO]: LukakuMT issued server command: /skin url "https://i.imgur.com/AxjjUrU.png" classic
-[18:00:48] [Server thread/INFO]: LukakuMT issued server command: /skin url "https://i.imgur.com/AxjjUrU.png" slim
-[18:00:58] [Server thread/INFO]: LukakuMT issued server command: /skin set elrichmc
-[18:01:14] [Server thread/INFO]: LukakuMT issued server command: /skin set Lolo
-[18:01:26] [Server thread/INFO]: LukakuMT issued server command: /skin url "https://i.imgur.com/AxjjUrU.png" slim
-[18:01:27] [Server thread/INFO]: LukakuMT lost connection: Disconnected
-[18:01:27] [Server thread/INFO]: LukakuMT left the game
-[18:01:30] [User Authenticator #1/INFO]: UUID of player LukakuMT is 4596fc55-df8e-3463-b1c8-b5d46d33857b
-[18:01:32] [Server thread/INFO]: LukakuMT joined the game
-[18:01:32] [Server thread/INFO]: LukakuMT[/127.5.19.232:32951] logged in with entity id 1837 at ([world]50.22261666845813, 93.0, 14.44731665090524)
-[18:01:45] [Server thread/INFO]: LukakuMT issued server command: /gamemode creative
-[18:01:45] [Server thread/INFO]: [LukakuMT: Set own game mode to Creative Mode]
-[18:01:53] [Server thread/INFO]: LukakuMT issued server command: /gamemode survival
-[18:01:53] [Server thread/INFO]: [LukakuMT: Set own game mode to Survival Mode]
-[18:02:14] [Server thread/INFO]: LukakuMT issued server command: /effect give LukakuMT minecraft:saturation infinite
-[18:02:14] [Server thread/INFO]: [LukakuMT: Applied effect Saturation to LukakuMT]
-[18:02:34] [Server thread/INFO]: LukakuMT issued server command: /skins
-[18:02:37] [Folia Async Scheduler Thread #3/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:03:26] [Server thread/INFO]: LukakuMT issued server command: /skins
-[18:03:37] [Server thread/INFO]: LukakuMT lost connection: Disconnected
-[18:03:37] [Server thread/INFO]: LukakuMT left the game
-[18:04:45] [User Authenticator #2/INFO]: UUID of player LukakuMT is 4596fc55-df8e-3463-b1c8-b5d46d33857b
-[18:04:47] [Server thread/INFO]: LukakuMT joined the game
-[18:04:47] [Server thread/INFO]: LukakuMT[/127.5.19.232:54029] logged in with entity id 2103 at ([world]105.80820453542472, 99.0, 45.37263164379606)
-[18:07:13] [Server thread/INFO]: LukakuMT lost connection: Disconnected
-[18:07:13] [Server thread/INFO]: LukakuMT left the game
-[18:07:16] [Server thread/INFO]: Stopping the server
-[18:07:16] [Server thread/INFO]: Stopping server
-[18:07:16] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.12
-[18:07:16] [Server thread/INFO]: [GSit] Disabling GSit v1.12.0
-[18:07:16] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
-[18:07:16] [Server thread/INFO]: [stamina] Disabling stamina v11.0.0
-[18:07:16] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.3
-[18:07:16] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.4.0-SNAPSHOT
-[18:07:16] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[18:07:16] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[18:07:16] [Server thread/INFO]: [Quests] Disabling Quests v5.0.5-b480
-[18:07:16] [Server thread/INFO]: [Quests] Saving Quester data...
-[18:07:16] [Server thread/INFO]: [Quests] Closing storage...
-[18:07:16] [Server thread/INFO]: [SkBee] Disabling SkBee v3.5.7
-[18:07:16] [Server thread/INFO]: [FancyNpcs] Disabling FancyNpcs v2.2.0.177
-[18:07:16] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.4
-[18:07:16] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v4.2.6
-[18:07:16] [Server thread/INFO]: [Skript] Disabling Skript v2.9.0
-[18:07:16] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.2-SNAPSHOT
-[18:07:16] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
-[18:07:16] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b109-49bd564)
-[18:07:16] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
-[18:07:16] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.2-SNAPSHOT
-[18:07:16] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[18:07:16] [Server thread/INFO]: Saving players
-[18:07:16] [WebSocketConnectReadThread-116/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[18:07:16] [Server thread/INFO]: Saving worlds
-[18:07:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:07:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[18:07:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[18:07:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[18:07:17] [Server thread/INFO]: [ChunkHolderManager] Saved 754 block chunks, 324 entity chunks, 0 poi chunks in world 'world' in 0.82s
-[18:07:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[18:07:17] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[18:07:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[18:07:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[18:07:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[18:07:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[18:07:17] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 7 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[18:07:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[18:07:17] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[18:07:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[18:07:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[18:07:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[18:07:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[18:07:17] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
-[18:07:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[18:07:17] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[18:07:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:07:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:07:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:07:17] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[18:07:17] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[18:07:17] [Server thread/INFO]: All I/O tasks to complete
-[18:07:17] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[18:07:17] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[19:33:27] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[19:33:27] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
+[19:33:27] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[19:33:28] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/Quests-5.1.5.jar'...
+[19:33:28] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/GeyserExtras.jar'...
+[19:33:31] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Quests-5.1.5.jar' in 3393ms.
+[19:33:31] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/GeyserExtras.jar' in 3707ms.
+[19:33:33] [ServerMain/INFO]: [PluginInitializerManager] Initialized 19 plugins
+[19:33:33] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - FancyNpcs (2.4.0)
+[19:33:33] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (18):
+ - DecentHolograms (2.8.12), GSit (1.12.0), Geyser-Spigot (2.4.0-SNAPSHOT), GeyserExtras (2.0.0), Multiverse-Core (4.3.12), Multiverse-Inventories (4.2.6), Multiverse-Portals (4.2.3), PlaceholderAPI (2.11.6), Quests (5.1.5-b512), SkBee (3.5.7), SkinsRestorer (15.4.4), Skript (2.9.0), TabList (5.7.7), ViaBackwards (5.2.0), ViaVersion (5.0.2-SNAPSHOT), ViaVersion (5.2.1-SNAPSHOT), floodgate (2.2.3-SNAPSHOT (b109-49bd564)), stamina (11.0.0)
+[19:33:37] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:33:39] [ServerMain/INFO]: Loaded 1337 recipes
+[19:33:39] [ServerMain/INFO]: Loaded 1448 advancements
+[19:33:39] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[19:33:39] [Server thread/INFO]: Loading properties
+[19:33:39] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[19:33:40] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[19:33:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:33:40] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:33:40] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[19:33:40] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[19:33:41] [Server thread/INFO]: Default game type: SURVIVAL
+[19:33:41] [Server thread/INFO]: Generating keypair
+[19:33:41] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:33:41] [Server thread/INFO]: Using epoll channel type
+[19:33:41] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[19:33:41] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[19:33:41] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'ViaVersion' for files 'plugins/ViaVersion-5.0.2-SNAPSHOT.jar' and 'plugins/ViaVersion-5.2.1-SNAPSHOT.jar' in 'plugins'
+[19:33:42] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[19:33:49] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b109-49bd564)
+[19:33:50] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[19:33:50] [Server thread/INFO]: [floodgate] Took 706ms to boot Floodgate
+[19:33:50] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.2-SNAPSHOT
+[19:33:50] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.2-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[19:33:50] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[19:33:51] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[19:33:51] [Server thread/ERROR]: [ViaBackwards] ================================
+[19:33:51] [Server thread/ERROR]: [ViaBackwards] YOUR VIAVERSION IS OUTDATED (you are running 5.0.2-SNAPSHOT)
+[19:33:51] [Server thread/ERROR]: [ViaBackwards] PLEASE USE VIAVERSION 5.2.0 OR NEWER
+[19:33:51] [Server thread/ERROR]: [ViaBackwards] LINK: https://ci.viaversion.com/
+[19:33:51] [Server thread/ERROR]: [ViaBackwards] VIABACKWARDS WILL NOW DISABLE
+[19:33:51] [Server thread/ERROR]: [ViaBackwards] ================================
+[19:33:51] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[19:33:51] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.4.0-SNAPSHOT
+[19:33:51] [Server thread/WARN]: [Geyser-Spigot] Missing locale: en_
+[19:33:52] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[19:33:52] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[19:33:52] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[19:33:52] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.9.0
+[19:33:52] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.0
+[19:33:52] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v4.2.6
+[19:33:52] [Server thread/INFO]: [GeyserExtras] Loading server plugin GeyserExtras v2.0.0
+[19:33:52] [Server thread/INFO]: [TabList] Loading server plugin TabList v5.7.7
+[19:33:52] [Server thread/INFO]: [FancyNpcs] Loading server plugin FancyNpcs v2.4.0
+[19:33:52] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.5.7
+[19:33:52] [Server thread/INFO]: [Quests] Loading server plugin Quests v5.1.5-b512
+[19:33:52] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v4.2.3
+[19:33:52] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.4
+[19:33:52] [Server thread/INFO]: [stamina] Loading server plugin stamina v11.0.0
+[19:33:52] [Server thread/INFO]: [stamina] WorldGuard not found. Some features will be disabled.
+[19:33:52] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.12.0
+[19:33:52] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.12
+[19:33:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:33:52] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.4
+[19:33:52] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[19:33:52] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.3.
+[19:33:53] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[19:33:53] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[19:33:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.4.4]
+[19:33:53] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[19:33:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:33:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:33:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:33:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:33:53] [Server thread/INFO]: Preparing level "world"
+[19:33:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:33:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[19:33:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[19:33:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[19:33:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[19:33:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[19:33:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:33:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.4
+[19:33:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dc501c7
+[19:33:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[19:33:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:33:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[19:33:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[19:33:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:33:54] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[19:33:54] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 559.7ms
+[19:33:55] [Server thread/INFO]: Preparing spawn area: 0%
+[19:33:55] [Server thread/INFO]: Preparing spawn area: 0%
+[19:33:55] [Server thread/INFO]: Preparing spawn area: 0%
+[19:33:55] [Server thread/INFO]: Preparing spawn area: 0%
+[19:33:55] [Server thread/INFO]: Time elapsed: 1647 ms
+[19:33:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:33:55] [Server thread/INFO]: Preparing spawn area: 0%
+[19:33:56] [Server thread/INFO]: Time elapsed: 374 ms
+[19:33:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:33:56] [Server thread/INFO]: Preparing spawn area: 0%
+[19:33:56] [Server thread/INFO]: Time elapsed: 83 ms
+[19:33:56] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b109-49bd564)
+[19:33:56] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.2-SNAPSHOT
+[19:33:56] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: Unknown (768) (768)
+[19:33:56] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
+[19:33:56] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
+[19:33:56] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
+[19:33:56] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://viaversion.com/setup
+[19:33:56] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
+[19:33:56] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[19:33:56] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[19:33:56] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[19:33:56] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[19:33:56] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[19:33:56] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[19:33:56] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.4.0-SNAPSHOT
+[19:33:56] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[19:33:57] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[19:33:57] [Server thread/INFO]: [Skript] Enabling Skript v2.9.0
+[19:33:57] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] A new version of Skript is available: 2.9.5 (you're currently running 2.9.0)
+[19:33:57] [ForkJoinPool.commonPool-worker-1/INFO]: Download it at: <aqua><u><link:https://github.com/SkriptLang/Skript/releases/download/2.9.5/Skript-2.9.5.jar>https://github.com/SkriptLang/Skript/releases/download/2.9.5/Skript-2.9.5.jar
+[19:34:10] [Server thread/INFO]: [Skript] Loaded 233164 aliases in 13166ms
+[19:34:11] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[19:34:11] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.0
+[19:34:11] [Server thread/ERROR]: Error occurred while enabling ViaBackwards v5.2.0 (Is it up to date?)
+java.lang.NoSuchFieldError: Class com.viaversion.viaversion.api.protocol.version.ProtocolVersion does not have member field 'com.viaversion.viaversion.api.protocol.version.ProtocolVersion v1_21_2'
+	at ViaBackwards-5.2.0.jar/com.viaversion.viabackwards.api.ViaBackwardsPlatform.enable(ViaBackwardsPlatform.java:153) ~[ViaBackwards-5.2.0.jar:?]
+	at ViaBackwards-5.2.0.jar/com.viaversion.viabackwards.BukkitPlugin.enable(BukkitPlugin.java:53) ~[ViaBackwards-5.2.0.jar:?]
+	at ViaBackwards-5.2.0.jar/com.viaversion.viabackwards.BukkitPlugin.onEnable(BukkitPlugin.java:47) ~[ViaBackwards-5.2.0.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:655) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:604) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:768) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:530) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:326) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1234) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[19:34:11] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.0
+[19:34:11] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v4.2.6
+[19:34:11] [Server thread/INFO]: [Multiverse-Inventories 4.2.6] enabled.
+[19:34:11] [Server thread/INFO]: [GeyserExtras] Enabling GeyserExtras v2.0.0
+[19:34:11] [Server thread/INFO]: [GeyserExtras] --------------GeyserExtras--------------
+[19:34:11] [Server thread/INFO]: [GeyserExtras] Version: 2.0.0-ALPHA-12
+[19:34:11] [Server thread/INFO]: [GeyserExtras] Server Type: SPIGOT
+[19:34:11] [Server thread/INFO]: [GeyserExtras] Floodgate installed: Yes
+[19:34:11] [Server thread/WARN]: [GeyserExtras] WARNING: Floodgate is installed, so GeyserExtras settings will not
+[19:34:11] [Server thread/WARN]: [GeyserExtras] show up in the Game Settings menu due to how forms work on GeyserMC.
+[19:34:11] [Server thread/WARN]: [GeyserExtras] If you want a temporary work around to this, use Geyser-Standalone,
+[19:34:11] [Server thread/WARN]: [GeyserExtras] otherwise a notification toast will show up informing players that
+[19:34:11] [Server thread/WARN]: [GeyserExtras] they will have to run '/ge settings'.
+[19:34:11] [Server thread/INFO]: [GeyserExtras] Loading config...
+[19:34:12] [Server thread/INFO]: [GeyserExtras] Registering events...
+[19:34:12] [Server thread/INFO]: [TabList] Enabling TabList v5.7.7
+[19:34:12] [Server thread/ERROR]: [TabList] Your server version does not supported 1.21.3-R0.1-SNAPSHOT
+[19:34:12] [Server thread/INFO]: [TabList] Disabling TabList v5.7.7
+[19:34:12] [Server thread/INFO]: [FancyNpcs] Enabling FancyNpcs v2.4.0
+[19:34:12] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: Plugin has been updated from version N/A to 2.4.0.
+[19:34:12] [Thread-11/WARN]: [GeyserExtras] GeyserExtras is on the latest version.
+[19:34:12] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs (2.4.0) has been enabled.
+[19:34:12] [Server thread/INFO]: [SkBee] Enabling SkBee v3.5.7
+[19:34:13] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[19:34:13] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.3! Trying to find NMS support
+[19:34:13] [Server thread/INFO]: [SkBee] Failed to load NBTApi!
+[19:34:13] [Server thread/INFO]: [SkBee] NBT Elements DISABLED!
+[19:34:13] [Server thread/INFO]: [SkBee]  - Your server version [1.21.3] is not currently supported by the NBT-API
+[19:34:13] [Server thread/INFO]: [SkBee]  - This is not a bug!
+[19:34:13] [Server thread/INFO]: [SkBee]  - NBT elements will resume once the API is updated to work with [1.21.3]
+[19:34:13] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[19:34:13] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[19:34:13] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[19:34:13] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[19:34:13] [Server thread/INFO]: [SkBee] Damage Source elements successfully loaded
+[19:34:13] [Server thread/INFO]: [SkBee] Display Entity elements successfully loaded
+[19:34:13] [Server thread/INFO]: [SkBee] Fishing elements successfully loaded
+[19:34:13] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[19:34:13] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[19:34:13] [Server thread/INFO]: [SkBee] RayTrace elements successfully loaded
+[19:34:13] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[19:34:13] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[19:34:13] [Server thread/INFO]: [SkBee] Scoreboard Objective Elements successfully loaded
+[19:34:13] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[19:34:13] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[19:34:13] [Server thread/INFO]: [SkBee] Minecraft Tag elements successfully loaded
+[19:34:13] [Server thread/INFO]: [SkBee] Team Elements successfully loaded
+[19:34:13] [Server thread/INFO]: [SkBee] Tick Manager elements successfully loaded
+[19:34:13] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[19:34:13] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[19:34:13] [Server thread/INFO]: [SkBee] World Border Elements successfully loaded
+[19:34:13] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[19:34:13] [Server thread/INFO]: [SkBee] Chunk Generator Elements disabled via config
+[19:34:13] [Server thread/INFO]: [SkBee] Loaded (386) elements:
+[19:34:13] [Server thread/INFO]: [SkBee]  - 55 events
+[19:34:13] [Server thread/INFO]: [SkBee]  - 60 effects
+[19:34:13] [Server thread/INFO]: [SkBee]  - 235 expressions
+[19:34:13] [Server thread/INFO]: [SkBee]  - 25 conditions
+[19:34:13] [Server thread/INFO]: [SkBee]  - 11 sections
+[19:34:13] [Server thread/INFO]: [SkBee] Checking for update...
+[19:34:13] [Server thread/INFO]: [SkBee] Plugin is not up to date!
+[19:34:13] [Server thread/INFO]: [SkBee]  - Current version: v3.5.7
+[19:34:13] [Server thread/INFO]: [SkBee]  - Available update: v3.6.1
+[19:34:13] [Server thread/INFO]: [SkBee]  - Download available at: https://github.com/ShaneBeee/SkBee/releases
+[19:34:13] [Server thread/INFO]: [SkBee] Successfully enabled v3.5.7 in 0.89 seconds
+[19:34:13] [Server thread/INFO]: [Quests] Enabling Quests v5.1.5-b512
+[19:34:13] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.3! Trying to find NMS support
+[19:34:13] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R2' loaded!
+[19:34:13] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'Quests' to create a bStats instance!
+[19:34:13] [Server thread/WARN]: [Quests] There are new language phrases in /lang/en-US/strings_new.yml for the current version! You must transfer them to, or regenerate, strings.yml to remove this warning!
+[19:34:13] [Server thread/INFO]: [Quests] Loaded language en-US. Translations via Crowdin
+[19:34:13] [Server thread/INFO]: [Quests] Loading storage implementation: YAML
+[19:34:13] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.2.3
+[19:34:14] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
+[19:34:14] [Server thread/INFO]: [Multiverse-Portals 4.2.3]  Enabled - By Rigby and fernferret
+[19:34:14] [Server thread/INFO]: [stamina] Enabling stamina v11.0.0
+[19:34:14] [Server thread/INFO]: [stamina] Core Service loaded
+[19:34:14] [Server thread/INFO]: [stamina] Core event loaded
+[19:34:14] [Server thread/INFO]: [stamina] Stamina Core loaded!
+[19:34:14] [Server thread/INFO]: [stamina] Stamina by ironPhil24k Has been loaded!
+[19:34:14] [Server thread/INFO]: [stamina] Stamina Load config...
+[19:34:14] [Server thread/INFO]: [stamina] Stamina Load Language File...
+[19:34:14] [Server thread/INFO]: [stamina] Stamina Load playerdata...
+[19:34:14] [Server thread/WARN]: [stamina] Vault not found, staminaupgrade and staminaedit and the gui commands will not be available.
+[19:34:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: stamina [11.0.0]
+[19:34:14] [Server thread/INFO]: [GSit] Enabling GSit v1.12.0
+[19:34:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [1.12.0]
+[19:34:14] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[19:34:14] [Server thread/INFO]: [GSit] Link with PlaceholderAPI successful!
+[19:34:14] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.12
+[19:34:14] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.3! Trying to find NMS support
+[19:34:14] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R2' loaded!
+[19:34:14] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[19:34:14] [Server thread/INFO]: [spark] Starting background profiler...
+[19:34:14] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[19:34:14] [Server thread/INFO]: [Geyser-Spigot] 
+[19:34:14] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.4.0-b609 (git-master-669a76c)
+[19:34:14] [Server thread/INFO]: [Geyser-Spigot] 
+[19:34:14] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[19:34:17] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[19:34:17] [Server thread/ERROR]: [org.geysermc.geyser.event.GeyserEventBus] An exception occurred while executing event GeyserPostInitializeEvent for subscriber org.geysermc.geyser.event.GeyserEventSubscriber
+java.lang.NoClassDefFoundError: org/geysermc/geyser/translator/protocol/bedrock/entity/player/input/BedrockPlayerAuthInputTranslator
+	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.handlers.bedrock.BedrockPlayerAuthInputInjector.<init>(BedrockPlayerAuthInputInjector.java:25) ~[GeyserExtras.jar:?]
+	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.handlers.GeyserHandler.registerDownstream(GeyserHandler.java:52) ~[GeyserExtras.jar:?]
+	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.handlers.GeyserHandler.register(GeyserHandler.java:26) ~[GeyserExtras.jar:?]
+	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.GeyserExtras.onGeyserInitialize(GeyserExtras.java:109) ~[GeyserExtras.jar:?]
+	at Geyser-Spigot.jar/org.geysermc.event.subscribe.impl.SubscriberImpl.invoke(SubscriberImpl.java:75) ~[Geyser-Spigot.jar:?]
+	at Geyser-Spigot.jar/org.geysermc.event.bus.impl.BaseBusImpl.fireSilently(BaseBusImpl.java:201) ~[Geyser-Spigot.jar:?]
+	at Geyser-Spigot.jar/org.geysermc.event.bus.impl.OwnedEventBusImpl.fireSilently(OwnedEventBusImpl.java:41) ~[Geyser-Spigot.jar:?]
+	at Geyser-Spigot.jar/org.geysermc.event.bus.impl.BaseBusImpl.fire(BaseBusImpl.java:180) ~[Geyser-Spigot.jar:?]
+	at Geyser-Spigot.jar/org.geysermc.event.bus.impl.OwnedEventBusImpl.fire(OwnedEventBusImpl.java:41) ~[Geyser-Spigot.jar:?]
+	at Geyser-Spigot.jar/org.geysermc.geyser.GeyserImpl.startInstance(GeyserImpl.java:575) ~[Geyser-Spigot.jar:?]
+	at Geyser-Spigot.jar/org.geysermc.geyser.GeyserImpl.initialize(GeyserImpl.java:247) ~[Geyser-Spigot.jar:?]
+	at Geyser-Spigot.jar/org.geysermc.geyser.GeyserImpl.start(GeyserImpl.java:801) ~[Geyser-Spigot.jar:?]
+	at Geyser-Spigot.jar/org.geysermc.geyser.platform.spigot.GeyserSpigotPlugin.onGeyserEnable(GeyserSpigotPlugin.java:214) ~[Geyser-Spigot.jar:?]
+	at Geyser-Spigot.jar/org.geysermc.geyser.platform.spigot.GeyserSpigotPlugin$1.onServerLoaded(GeyserSpigotPlugin.java:198) ~[Geyser-Spigot.jar:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:44) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:775) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:530) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:326) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1234) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: org.geysermc.geyser.translator.protocol.bedrock.entity.player.input.BedrockPlayerAuthInputTranslator
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:197) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 26 more
+[19:34:17] [Server thread/INFO]: [Geyser-Spigot] Done (2.911s)! Run /geyser help for help!
+[19:34:17] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[19:34:17] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[19:34:17] [Server thread/INFO]: Done preparing level "world" (24.243s)
+[19:34:17] [Server thread/INFO]: Running delayed init tasks
+[19:34:17] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[19:34:17] [Server thread/INFO]: [Skript] Loading variables...
+[19:34:17] [ForkJoinPool.commonPool-worker-3/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 1.21.50. Download it here: https://geysermc.org/download
+[19:34:17] [Craft Scheduler Thread - 5 - stamina/INFO]: [stamina] You are running the last version of stamina :)
+[19:34:17] [Server thread/INFO]: [Skript] Loaded 0 variables in 0.0 seconds
+[19:34:17] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[19:34:17] [Server thread/INFO]: [Skript]     No scripts were found, maybe you should write some ;)
+[19:34:17] [Server thread/INFO]: [Skript] Finished loading.
+[19:34:17] [Server thread/WARN]: [Geyser-Spigot] You are using an outdated version of ViaVersion; please download the newest version from https://ci.viaversion.com/job/ViaVersion/
+[19:34:17] [Server thread/INFO]: [Multiverse-Inventories] First run!
+[19:34:17] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.2.0, you're on: 5.0.2-SNAPSHOT
+[19:34:17] [Server thread/INFO]: Done (51.281s)! For help, type "help"
+[19:34:18] [Server thread/INFO]: [Quests] Loaded 4 Quest(s), 7 Action(s), 1 Condition(s) and 798 Phrase(s)
+[19:34:44] [User Authenticator #0/INFO]: UUID of player LukakuMT is 4596fc55-df8e-3463-b1c8-b5d46d33857b
+[19:34:45] [Server thread/INFO]: LukakuMT joined the game
+[19:34:45] [Server thread/INFO]: LukakuMT[/127.5.19.232:37983] logged in with entity id 94 at ([world]90.63487462825005, 101.0, 1.300000011920929)
+[19:35:26] [Server thread/INFO]: LukakuMT issued server command: /gamemode creative
+[19:35:26] [Server thread/INFO]: [LukakuMT: Set own game mode to Creative Mode]
+[19:36:26] [Server thread/INFO]: LukakuMT issued server command: /gamemode survival
+[19:36:26] [Server thread/INFO]: [LukakuMT: Set own game mode to Survival Mode]
+[19:36:32] [Server thread/INFO]: LukakuMT issued server command: /gamemode creative
+[19:36:32] [Server thread/INFO]: [LukakuMT: Set own game mode to Creative Mode]
+[19:39:33] [Server thread/INFO]: LukakuMT lost connection: Disconnected
+[19:39:33] [Server thread/INFO]: LukakuMT left the game
+[19:39:36] [Server thread/INFO]: Stopping the server
+[19:39:36] [Server thread/INFO]: Stopping server
+[19:39:36] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.12
+[19:39:36] [Server thread/INFO]: [GSit] Disabling GSit v1.12.0
+[19:39:36] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[19:39:36] [Server thread/INFO]: [stamina] Disabling stamina v11.0.0
+[19:39:36] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.4
+[19:39:36] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.3
+[19:39:36] [Server thread/INFO]: [Quests] Disabling Quests v5.1.5-b512
+[19:39:36] [Server thread/INFO]: [Quests] Saving Quester data...
+[19:39:36] [Server thread/INFO]: [Quests] Closing storage...
+[19:39:36] [Server thread/INFO]: [SkBee] Disabling SkBee v3.5.7
+[19:39:36] [Server thread/INFO]: [FancyNpcs] Disabling FancyNpcs v2.4.0
+[19:39:36] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs has been disabled.
+[19:39:36] [Server thread/INFO]: [GeyserExtras] Disabling GeyserExtras v2.0.0
+[19:39:36] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v4.2.6
+[19:39:36] [Server thread/INFO]: [Skript] Disabling Skript v2.9.0
+[19:39:36] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[19:39:36] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.4.0-SNAPSHOT
+[19:39:36] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[19:39:36] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[19:39:36] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[19:39:36] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.2-SNAPSHOT
+[19:39:36] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[19:39:36] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b109-49bd564)
+[19:39:36] [Server thread/INFO]: Saving players
+[19:39:36] [WebSocketConnectReadThread-129/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[19:39:36] [Server thread/INFO]: Saving worlds
+[19:39:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:39:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[19:39:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[19:39:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[19:39:38] [Server thread/INFO]: [ChunkHolderManager] Saved 1142 block chunks, 807 entity chunks, 0 poi chunks in world 'world' in 1.99s
+[19:39:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[19:39:38] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[19:39:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:39:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[19:39:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[19:39:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[19:39:38] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 7 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[19:39:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[19:39:38] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[19:39:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:39:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[19:39:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[19:39:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[19:39:38] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[19:39:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[19:39:38] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[19:39:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:39:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:39:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:39:38] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:39:38] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[19:39:38] [Server thread/INFO]: All I/O tasks to complete
+[19:39:38] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[19:39:38] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

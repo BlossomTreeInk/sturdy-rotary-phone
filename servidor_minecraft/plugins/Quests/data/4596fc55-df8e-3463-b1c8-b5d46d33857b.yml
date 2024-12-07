@@ -1,5 +1,4 @@
-currentQuests: none
-currentStages: none
+currentQuests: []
+currentStages: []
 quest-points: 0
-completed-Quests: none
 lastKnownName: LukakuMT
