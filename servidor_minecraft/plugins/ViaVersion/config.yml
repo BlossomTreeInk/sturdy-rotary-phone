@@ -25,7 +25,7 @@ block-disconnect-msg: You are using an unsupported Minecraft version!
 # (We don't suggest using reload either, use a plugin manager)
 # You can customize the message we kick people with if you use ProtocolLib here.
 reload-disconnect-msg: Server reload, please rejoin!
-# We warn when there's an error converting item and block data over versions, should we suppress these? (Only suggested if spamming)
+# We warn when there's an error converting item/block or component/nbt data over versions, should we suppress these? (Only suggested if spamming)
 suppress-conversion-warnings: false
 #
 #----------------------------------------------------------#
@@ -142,6 +142,12 @@ enforce-secure-chat: false
 # Handles items with invalid count values (higher than max stack size) on 1.20.3 servers.
 handle-invalid-item-count: false
 #
+# Hides scoreboard numbers for 1.20.3+ clients on older server versions.
+hide-scoreboard-numbers: false
+#
+# Fixes 1.21+ clients on 1.20.5 servers placing water/lava buckets at the wrong location when moving fast, NOTE: This may cause issues with anti-cheat plugins.
+fix-1_21-placement-rotation: true
+#
 #----------------------------------------------------------#
 #             1.9+ CLIENTS ON 1.8 SERVERS OPTIONS          #
 #----------------------------------------------------------#
@@ -187,3 +193,6 @@ chunk-border-fix: false
 left-handed-handling: true
 # Tries to cancel block break/place sounds sent by 1.8 servers to 1.9+ clients to prevent them from playing twice
 cancel-block-sounds: true
+# If enabled, 1.20.5+ clients will have sword blocking mechanics on 1.8 servers using the consumable item component.
+# Note that you won't be able to see the blocking in first person if the client is older than 1.21.4.
+sword-blocking-via-consumable: true
