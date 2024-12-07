@@ -6,8 +6,8 @@
 #   \ \_______\ \__\ \__\ \__\\ \__\ \_______\ \_______\ \__\ \__\ \_______\ \_______\       \ \__\   \ \__\ \_______\ \_______\
 #    \|_______|\|__|\|__|\|__| \|__|\|_______|\|_______|\|__|\|__|\|_______|\|_______|        \|__|    \|__|\|_______|\|_______|
 
-boss_bar_title: "Endurance"
-no_stamina_message: "You need more stamina!"
+boss_bar_title: "§e⚡§l🏃"
+no_stamina_message: "§o§7Estas cansado, no puedes correr"
 insufficient_money: "You don't have enough money to upgrade your stamina."
 insufficient_money_max: "You don't have enough money to upgrade your stamina to the maximum level."
 rate_decreased: "&aSprint drain rate has been decreased by %s ⚡, new rate is %s ⚡"

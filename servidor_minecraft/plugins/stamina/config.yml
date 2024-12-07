@@ -10,7 +10,7 @@
 
 
 bossbar: true
-bossbar-color: GREEN
+bossbar-color: WHITE
 
 
 # Enable or not the upgrade system
@@ -41,18 +41,18 @@ creativemode_drain: false
 
 
 # Max Endurance
-endurance: 200
+endurance: 1400
 
 # Regen rate stat
-regen_rate: 3.0
+regen_rate: 9.0
 
 # sprint drain default stat
-sprint_drain_rate: 0.5
+sprint_drain_rate: 9.5
 
 
 # apply or not slowness when the stamina reach 0
 Fatigue: true
-FatigueDuration: 5 # in seconds
+FatigueDuration: 2 # in seconds
 potion_effect_fatigue: SLOW
 ExhaustionParticle: true
 
@@ -60,7 +60,7 @@ ExhaustionParticle: true
 # -2 stamina everytime
 # the player jump
 JumpDrain: true
-JumpDrainRate: 2
+JumpDrainRate: 1
 
 
 # Jump cancel can produce
@@ -70,16 +70,16 @@ jumpCancel: false
 
 # Combat drain rate
 # Every swing
-EnduranceCombat: false
+EnduranceCombat: true
 # -2 every hit
 swingDrainRate: 2
 # Time in seconds
 # for mining fatigue (VisualEffect)
 CombatFatigue: true
-MiningFatigue: 3
+MiningFatigue: 2
 # When player received damage
 # drain stamina
-DrainStamina_onPlayerAttacked: false
+DrainStamina_onPlayerAttacked: true
 
 
 # Custom PlaceHolder setting
