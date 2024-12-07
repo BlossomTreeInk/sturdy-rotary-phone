@@ -1,0 +1,3 @@
+feature-flags:
+  player-npcs: false
+  use-fancyanalytics: false

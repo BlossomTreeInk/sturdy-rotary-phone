@@ -1,0 +1,108 @@
+{
+  "tcp_alloc": {
+    "allowed": 6,
+    "claimed": 1,
+    "desired": 1
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "metal-titanium.gl.joinmc.link",
+          "assigned_srv": "metal-titanium.gl.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "15f94283-3a96-44b5-abd2-78e93b5f4d5f",
+          "ip_hostname": "24.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 7395,
+          "port_start": 7394,
+          "region": "global",
+          "static_ip4": "147.185.221.24",
+          "static_ip6": "2602:fbaf:0:1::18",
+          "tunnel_ip": "2602:fbaf:0:1::18"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-12-07T15:42:31.674787Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "ec720105-d4df-4f8d-b6bf-ba6bd8c10d70",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "41f70d59-ad6c-4e00-b6d1-d834d1ad1c74",
+          "agent_name": "Wachaland Enchanted",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "proxy_protocol": null,
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-java"
+    },
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "huge-checkout.gl.at.ply.gg",
+          "assigned_srv": null,
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "db5850e0-3ee3-413a-aaef-bfba6e8400d8",
+          "ip_hostname": "21.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 1109,
+          "port_start": 1108,
+          "region": "global",
+          "static_ip4": "147.185.221.21",
+          "static_ip6": "2602:fbaf:0:1::15",
+          "tunnel_ip": "2602:fbaf:0:1::15"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-12-07T15:42:49.710881Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "6b620039-278d-4f38-963e-2c2143ccc626",
+      "name": "Minecraft Bedrock",
+      "origin": {
+        "data": {
+          "agent_id": "41f70d59-ad6c-4e00-b6d1-d834d1ad1c74",
+          "agent_name": "Wachaland Enchanted",
+          "local_ip": "127.0.0.1",
+          "local_port": 19132
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "udp",
+      "proxy_protocol": null,
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-bedrock"
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 6,
+    "claimed": 1,
+    "desired": 1
+  }
+}
