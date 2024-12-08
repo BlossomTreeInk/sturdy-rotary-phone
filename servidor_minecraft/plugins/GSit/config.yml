@@ -100,7 +100,7 @@ Options:
     lay-rest: true
     
     # Emit snoring sounds when lying down
-    lay-snoring-sounds: false
+    lay-snoring-sounds: true
     
     # Emit snoring sounds only at night
     lay-snoring-night-only: true

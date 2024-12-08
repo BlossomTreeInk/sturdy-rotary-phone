@@ -9,16 +9,16 @@
 # Player configuration and general
 player_config:
   # speed that the player will have when injured.
-  downed_speed: 0.04
+  downed_speed: 0.06
   
   # time in which the player will die if not revived.
-  death_delay: 75
+  death_delay: 80
   
   # Speed to revive the player (seconds)
-  reliving_count: 10
+  reliving_count: 8
   
   # time in which the player is invulnerable.
-  invulnerability_delay: 15
+  invulnerability_delay: 20
   
   # Should it be invulnerable to mobs as well?
   invulnerability_with_mobs: true
@@ -36,16 +36,16 @@ player_config:
   suicide_count: 5
   
   # life that the player will have when injured
-  downed_health: 1
+  downed_health: 2
   
   # life that the player will have when revived
-  revived_health: 4.0
+  revived_health: 8.0
   
   # You can steal items from injured players with "crouch + right click"
   steal_items: false
   
   # minimum distance required to revive
-  reliving_distance_min: 1.3
+  reliving_distance_min: 2.3
   
   # maximum distance you can walk away while reviving before it is canceled
   reliving_distance_max: 5

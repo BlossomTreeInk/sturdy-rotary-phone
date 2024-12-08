@@ -265,7 +265,7 @@ login:
     # [?] Unsure? leave this true for better performance.
     noSkinIfLoginCanceled: true
     # This will make SkinsRestorer always apply the skin even if the player joins as premium on an online mode server.
-    alwaysApplyPremium: false
+    alwaysApplyPremium: true
 api:
     # Here you can fill in your APIKey for lower MineSkin request times.
     # Key can be requested from https://mineskin.org/apikey

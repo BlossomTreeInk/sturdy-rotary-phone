@@ -3,7 +3,7 @@
 Destruction:
 
   # Make the FallingBlocks look almost like an actual tree falling over
-  Falling Blocks Fancy: false
+  Falling Blocks Fancy: true
 
   # Message when a tree determination fails based on invalid nearby blocks
   Message Invalid Blocks: true
