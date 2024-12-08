@@ -14,7 +14,7 @@ Options:
   check-for-update: true
   
   # Force players to stand up after taking damage
-  get-up-damage: false
+  get-up-damage: true
   
   # Allow standing up by sneaking
   get-up-sneak: true
@@ -26,7 +26,7 @@ Options:
   get-up-break: true
   
   # Allow sitting or posing in unsafe locations
-  allow-unsafe: false
+  allow-unsafe: true
   
   # Allow only one player per block to sit or pose
   same-block-rest: false
@@ -116,7 +116,7 @@ Options:
     get-up-sneak: true
     
     # Enable double-sneak to start crawling (requires looking straight down)
-    double-sneak: false
+    double-sneak: true
     
     # Allow crawling by default without using 'crawl toggle'
     default-crawl-mode: true

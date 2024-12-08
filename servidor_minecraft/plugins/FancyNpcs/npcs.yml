@@ -1,0 +1,23 @@
+npcs:
+  6d84ee09-5bf2-4e0e-813b-ca7144fe3086:
+    name: Lolo
+    creator: 4596fc55-df8e-3463-b1c8-b5d46d33857b
+    displayName: Lolo
+    type: PLAYER
+    location:
+      world: world
+      x: 268.17818137649095
+      y: 97.0
+      z: -450.47127891912345
+      yaw: 97.611755
+      pitch: 23.280962
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: true
+    glowingColor: white
+    turnToPlayer: true
+    interactionCooldown: 0.0
+    scale: 1.0
+    skin:
+      mirrorSkin: false
