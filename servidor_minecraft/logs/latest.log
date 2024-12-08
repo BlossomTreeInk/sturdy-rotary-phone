@@ -378,3 +378,87 @@
 [16:40:07] [Server thread/INFO]: LukakuMT issued server command: /skin url "https://t.novaskin.me/8bc67ee24e6b1ba65d243eb966f69618ba54f28f79e9e25b44192ecf9161ff1d" classic
 [16:40:13] [Server thread/INFO]: LukakuMT issued server command: /skin url "https://t.novaskin.me/8bc67ee24e6b1ba65d243eb966f69618ba54f28f79e9e25b44192ecf9161ff1d" slim
 [16:45:18] [Server thread/INFO]: LukakuMT was slain by Zombie
+[16:45:57] [Server thread/INFO]: LukakuMT was shot by Skeleton
+[16:49:44] [Server thread/INFO]: LukakuMT issued server command: /heal
+[16:49:53] [Server thread/INFO]: LukakuMT issued server command: /gamemode spectator
+[16:49:53] [Server thread/INFO]: [LukakuMT: Set own game mode to Spectator Mode]
+[16:49:59] [Server thread/INFO]: LukakuMT issued server command: /mvspawn
+[16:50:01] [Server thread/INFO]: LukakuMT issued server command: /gamemode survival
+[16:50:01] [Server thread/INFO]: [LukakuMT: Set own game mode to Survival Mode]
+[16:50:07] [Server thread/INFO]: LukakuMT was slain by Spider
+[16:50:35] [Server thread/INFO]: LukakuMT lost connection: Disconnected
+[16:50:36] [Server thread/INFO]: LukakuMT left the game
+[16:52:26] [User Authenticator #1/INFO]: UUID of player LukakuMT is 4596fc55-df8e-3463-b1c8-b5d46d33857b
+[16:52:28] [Server thread/INFO]: LukakuMT joined the game
+[16:52:28] [Server thread/INFO]: LukakuMT[/127.5.19.232:43819] logged in with entity id 2027 at ([world]17.10444302092993, 103.0, -331.4450286839304)
+[16:52:44] [Server thread/INFO]: LukakuMT issued server command: /skins
+[16:52:45] [Folia Async Scheduler Thread #3/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:52:54] [Server thread/INFO]: LukakuMT lost connection: Disconnected
+[16:52:54] [Server thread/INFO]: LukakuMT left the game
+[16:53:45] [Server thread/INFO]: Stopping the server
+[16:53:45] [Server thread/INFO]: Stopping server
+[16:53:45] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.12
+[16:53:45] [Server thread/INFO]: [stamina] Disabling stamina v11.0.0
+[16:53:45] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.4
+[16:53:45] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.3
+[16:53:45] [Server thread/INFO]: [Crouch-Jump] Disabling Crouch-Jump v1.0.0
+[16:53:45] [Server thread/INFO]: Crouch-Jump by https://KaiserShare.xyz has been disabled.
+[16:53:45] [Server thread/INFO]: [ReviveMe] Disabling ReviveMe v4.0.7
+[16:53:45] [Server thread/INFO]: [Quests] Disabling Quests v5.1.5-b512
+[16:53:45] [Server thread/INFO]: [Quests] Saving Quester data...
+[16:53:45] [Server thread/INFO]: [Quests] Closing storage...
+[16:53:45] [Server thread/INFO]: [SkBee] Disabling SkBee v3.5.7
+[16:53:45] [Server thread/INFO]: [FancyNpcs] Disabling FancyNpcs v2.4.0
+[16:53:45] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs has been disabled.
+[16:53:45] [Server thread/INFO]: [Images] Disabling Images v2.5.3
+[16:53:45] [Server thread/INFO]: [TreeAssist] Disabling TreeAssist v7.3.57
+[16:53:45] [Server thread/INFO]: [GeyserExtras] Disabling GeyserExtras v2.0.0
+[16:53:45] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v4.2.6
+[16:53:45] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.0
+[16:53:45] [Server thread/INFO]: [GSit] Disabling GSit v1.12.0
+[16:53:45] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[16:53:45] [Server thread/INFO]: [Skript] Disabling Skript v2.9.0
+[16:53:45] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.5.1-SNAPSHOT
+[16:53:45] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[16:53:45] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[16:53:45] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[16:53:45] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[16:53:45] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.13-beta-1+2f13ae0
+[16:53:45] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[16:53:45] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1-SNAPSHOT
+[16:53:45] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[16:53:45] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b109-49bd564)
+[16:53:45] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.9+6959-7adf70b
+[16:53:45] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[16:53:45] [Server thread/INFO]: Saving players
+[16:53:45] [WebSocketConnectReadThread-130/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[16:53:45] [Server thread/INFO]: Saving worlds
+[16:53:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:53:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:53:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:53:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:53:46] [Server thread/INFO]: [ChunkHolderManager] Saved 38 block chunks, 181 entity chunks, 0 poi chunks in world 'world' in 0.13s
+[16:53:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[16:53:46] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[16:53:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:53:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:53:46] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:53:46] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:53:46] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 6 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[16:53:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[16:53:46] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[16:53:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:53:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:53:46] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:53:46] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:53:46] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[16:53:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[16:53:46] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[16:53:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:53:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:53:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:53:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:53:46] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[16:53:46] [Server thread/INFO]: All I/O tasks to complete
+[16:53:46] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[16:53:46] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

@@ -169,3 +169,18 @@ Dec 08,2024 16:44:11:-> healt:1.8000030517578125 max_health:20.0 speed:0.186
 Dec 08,2024 16:45:18:-> player:LukakuMT reason:Death. code: 004
 Dec 08,2024 16:45:18:-> current_speed:0.186 next_speed:0.186
 Dec 08,2024 16:45:18:-> speed_changed_to:0.186 edited:false
+-------------------------[set downed]-----------------------
+Dec 08,2024 16:45:46:-> player:LukakuMT reason:2 0.17822488458462526
+Dec 08,2024 16:45:46:-> healt:7.833333969116211 max_health:20.0 speed:0.21084
+-------------------------[set stand]-----------------------
+Dec 08,2024 16:45:57:-> player:LukakuMT reason:Death. code: 004
+Dec 08,2024 16:45:57:-> current_speed:0.186 next_speed:0.21084
+Dec 08,2024 16:45:57:-> speed_changed_to:0.21084 edited:false
+-------------------------[set downed]-----------------------
+Dec 08,2024 16:49:36:-> player:LukakuMT reason:2 0.1805384950723289
+Dec 08,2024 16:49:36:-> healt:1.0999994277954102 max_health:20.0 speed:0.186
+-------------------------[set stand]-----------------------
+Dec 08,2024 16:50:07:-> player:LukakuMT reason:Death. code: 004
+Dec 08,2024 16:50:07:-> current_speed:0.26052 next_speed:0.186
+Dec 08,2024 16:50:07:-> speed_changed_to:0.186 edited:false
+Dec 08,2024 16:53:45:-> =========REVIVEME DISABLED=========
