@@ -1,9 +1,0 @@
-variables:
-    {last-jump-tick::%player%} = 0
-
-on jump:
-    set {_current-tick} to current tick
-    set {_last-tick} to {last-jump-tick::%player%}
-    if {_last-tick} > 0 and {_current-tick} - {_last-tick} <= 20: # 20 ticks = 1 segundo
-        apply jump boost 4 to player for 0.5 second
-    set {last-jump-tick::%player%} to {_current-tick}

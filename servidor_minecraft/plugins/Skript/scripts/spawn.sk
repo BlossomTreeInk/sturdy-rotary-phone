@@ -1,0 +1,6 @@
+on join:
+    wait 1 seconds
+    set {_location} to location of player
+    add 0.01 to y-coordinate of {_location}
+    teleport player to {_location}
+    send "&aTe has teletransportado un bloque hacia arriba después de 5 segundos." to player
