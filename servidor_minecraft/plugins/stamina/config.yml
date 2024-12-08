@@ -44,10 +44,10 @@ creativemode_drain: false
 endurance: 1400
 
 # Regen rate stat
-regen_rate: 98.0
+regen_rate: 110.0
 
 # sprint drain default stat
-sprint_drain_rate: 0.85
+sprint_drain_rate: 1.25
 
 
 # apply or not slowness when the stamina reach 0

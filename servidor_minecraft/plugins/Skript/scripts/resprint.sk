@@ -4,9 +4,9 @@ options:
     xp: false                                                #Should script show sprint progress in xp bar?
     increase_xp: 0.0195                                     #How fast should be xp bar filled. If you change values, you have to balance 
 #                                                               this option, since it can increase level of player
-    default: 0.185                                          #Player's walk speed while not sprinting
-    max_speed: 0.290                                          #Maximum player's sprint speed
-    increase_speed: 0.00135                                  #How fast should player
+    default: 0.186                                          #Player's walk speed while not sprinting
+    max_speed: 0.300                                          #Maximum player's sprint speed
+    increase_speed: 0.00138                                  #How fast should player
     often: 2                                                #How often should be speed increased in ticks
 #-----------------------------------------------------------------------------------------------------
 

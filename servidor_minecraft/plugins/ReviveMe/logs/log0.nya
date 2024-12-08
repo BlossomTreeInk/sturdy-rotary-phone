@@ -1,0 +1,163 @@
+Dec 08,2024 00:30:07:-> =========REVIVEME ENABLED=========
+-------------------------[set downed]-----------------------
+Dec 08,2024 00:30:57:-> player:LukakuMT reason:2 0.7826645049348339
+Dec 08,2024 00:30:57:-> healt:1.9666662216186523 max_health:20.0 speed:0.185
+-------------------------[set stand]-----------------------
+Dec 08,2024 00:31:20:-> player:LukakuMT reason:Death. code: 004
+Dec 08,2024 00:31:20:-> current_speed:0.04 next_speed:0.185
+Dec 08,2024 00:31:20:-> speed_changed_to:0.185 edited:false
+-------------------------[set downed]-----------------------
+Dec 08,2024 00:31:37:-> player:LukakuMT reason:2 0.7236378173753295
+Dec 08,2024 00:31:37:-> healt:2.166666030883789 max_health:20.0 speed:0.185
+-------------------------[set stand]-----------------------
+Dec 08,2024 00:31:56:-> player:LukakuMT reason:Death. code: 004
+Dec 08,2024 00:31:56:-> current_speed:0.04 next_speed:0.185
+Dec 08,2024 00:31:56:-> speed_changed_to:0.185 edited:false
+Dec 08,2024 00:37:47:-> =========REVIVEME DISABLED=========
+Dec 08,2024 00:38:46:-> =========REVIVEME ENABLED=========
+-------------------------[set downed]-----------------------
+Dec 08,2024 00:40:40:-> player:LukakuMT reason:2 0.8340567184651525
+Dec 08,2024 00:40:40:-> healt:1.0 max_health:20.0 speed:0.186
+Dec 08,2024 00:40:46:-> interact with downed player. isSneaking: false hand: HAND
+Dec 08,2024 00:40:46:-> interact with downed player. isSneaking: false hand: HAND
+-------------------------[set stand]-----------------------
+Dec 08,2024 00:41:03:-> player:LukakuMT reason:revive action
+Dec 08,2024 00:41:03:-> current_speed:0.04 next_speed:0.186
+Dec 08,2024 00:41:03:-> speed_changed_to:0.186 edited:false
+Dec 08,2024 00:45:06:-> =========REVIVEME DISABLED=========
+Dec 08,2024 00:46:04:-> =========REVIVEME ENABLED=========
+-------------------------[set downed]-----------------------
+Dec 08,2024 00:48:50:-> player:LukakuMT reason:2 0.3711800569179424
+Dec 08,2024 00:48:50:-> healt:6.000000476837158 max_health:20.0 speed:0.186
+-------------------------[set stand]-----------------------
+Dec 08,2024 00:49:07:-> player:LukakuMT reason:Death. code: 004
+Dec 08,2024 00:49:07:-> current_speed:0.186 next_speed:0.186
+Dec 08,2024 00:49:07:-> speed_changed_to:0.186 edited:false
+-------------------------[set downed]-----------------------
+Dec 08,2024 00:49:23:-> player:.Deimoss06 reason:2 0.3811621664155481
+Dec 08,2024 00:49:23:-> healt:14.866676330566406 max_health:20.0 speed:0.186
+-------------------------[set stand]-----------------------
+Dec 08,2024 00:49:40:-> player:.Deimoss06 reason:revive action
+Dec 08,2024 00:49:40:-> current_speed:0.04 next_speed:0.186
+Dec 08,2024 00:49:40:-> speed_changed_to:0.186 edited:false
+-------------------------[set downed]-----------------------
+Dec 08,2024 00:49:41:-> player:.Deimoss06 reason:2 0.28043827730462745
+Dec 08,2024 00:49:41:-> healt:4.0333333015441895 max_health:20.0 speed:0.186
+-------------------------[set stand]-----------------------
+Dec 08,2024 00:50:01:-> player:.Deimoss06 reason:revive action
+Dec 08,2024 00:50:01:-> current_speed:0.04 next_speed:0.186
+Dec 08,2024 00:50:01:-> speed_changed_to:0.186 edited:false
+-------------------------[set downed]-----------------------
+Dec 08,2024 00:50:01:-> player:.Deimoss06 reason:2 0.1204116891192274
+Dec 08,2024 00:50:01:-> healt:4.0 max_health:20.0 speed:0.186
+-------------------------[set stand]-----------------------
+Dec 08,2024 00:50:14:-> player:.Deimoss06 reason:revive action
+Dec 08,2024 00:50:14:-> current_speed:0.04 next_speed:0.186
+Dec 08,2024 00:50:14:-> speed_changed_to:0.186 edited:false
+-------------------------[set downed]-----------------------
+Dec 08,2024 00:50:15:-> player:.Deimoss06 reason:2 0.8717102671440202
+Dec 08,2024 00:50:15:-> healt:4.0 max_health:20.0 speed:0.186
+-------------------------[set stand]-----------------------
+Dec 08,2024 00:50:29:-> player:.Deimoss06 reason:revive action
+Dec 08,2024 00:50:29:-> current_speed:0.04 next_speed:0.186
+Dec 08,2024 00:50:29:-> speed_changed_to:0.186 edited:false
+-------------------------[set downed]-----------------------
+Dec 08,2024 00:50:29:-> player:.Deimoss06 reason:2 0.8033666748740415
+Dec 08,2024 00:50:29:-> healt:4.0 max_health:20.0 speed:0.186
+-------------------------[set stand]-----------------------
+Dec 08,2024 00:50:46:-> player:.Deimoss06 reason:revive action
+Dec 08,2024 00:50:46:-> current_speed:0.04 next_speed:0.186
+Dec 08,2024 00:50:46:-> speed_changed_to:0.186 edited:false
+-------------------------[set downed]-----------------------
+Dec 08,2024 00:50:46:-> player:.Deimoss06 reason:2 0.9047309821338211
+Dec 08,2024 00:50:46:-> healt:4.0 max_health:20.0 speed:0.186
+-------------------------[set stand]-----------------------
+Dec 08,2024 00:51:11:-> player:.Deimoss06 reason:Death. code: 004
+Dec 08,2024 00:51:11:-> current_speed:0.04 next_speed:0.186
+Dec 08,2024 00:51:11:-> speed_changed_to:0.186 edited:false
+-------------------------[set downed]-----------------------
+Dec 08,2024 00:51:15:-> player:LukakuMT reason:2 0.49432649311626353
+Dec 08,2024 00:51:15:-> healt:20.0 max_health:20.0 speed:0.186
+-------------------------[set stand]-----------------------
+Dec 08,2024 00:51:22:-> player:LukakuMT reason:Death. code: 004
+Dec 08,2024 00:51:22:-> current_speed:0.04 next_speed:0.186
+Dec 08,2024 00:51:22:-> speed_changed_to:0.186 edited:false
+-------------------------[set downed]-----------------------
+Dec 08,2024 00:51:23:-> player:.Deimoss06 reason:2 0.7549939732007578
+Dec 08,2024 00:51:23:-> healt:20.0 max_health:20.0 speed:0.186
+Dec 08,2024 00:52:38:-> current_speed:0.186 next_speed:0.186
+Dec 08,2024 00:52:38:-> speed_changed_to:0.186 edited:false
+-------------------------[set stand]-----------------------
+Dec 08,2024 00:52:38:-> player:.Deimoss06 reason:Death. code: 004
+Dec 08,2024 00:52:38:-> current_speed:0.186 next_speed:0.186
+Dec 08,2024 00:52:38:-> speed_changed_to:0.186 edited:false
+-------------------------[set downed]-----------------------
+Dec 08,2024 00:52:48:-> player:.Deimoss06 reason:2 0.4461573680476544
+Dec 08,2024 00:52:48:-> healt:20.0 max_health:20.0 speed:0.186
+-------------------------[set stand]-----------------------
+Dec 08,2024 00:53:05:-> player:.Deimoss06 reason:revive action
+Dec 08,2024 00:53:05:-> current_speed:0.186 next_speed:0.186
+Dec 08,2024 00:53:05:-> speed_changed_to:0.186 edited:false
+-------------------------[set downed]-----------------------
+Dec 08,2024 00:53:29:-> player:.Deimoss06 reason:2 0.384510144202057
+Dec 08,2024 00:53:29:-> healt:4.0 max_health:20.0 speed:0.186
+-------------------------[set stand]-----------------------
+Dec 08,2024 00:53:44:-> player:.Deimoss06 reason:Death. code: 004
+Dec 08,2024 00:53:44:-> current_speed:0.04 next_speed:0.186
+Dec 08,2024 00:53:44:-> speed_changed_to:0.186 edited:false
+-------------------------[set downed]-----------------------
+Dec 08,2024 00:57:33:-> player:LukakuMT reason:2 0.8542611261724115
+Dec 08,2024 00:57:33:-> healt:7.0 max_health:20.0 speed:0.19428
+-------------------------[set stand]-----------------------
+Dec 08,2024 00:57:49:-> player:LukakuMT reason:Death. code: 004
+Dec 08,2024 00:57:49:-> current_speed:0.186 next_speed:0.19428
+Dec 08,2024 00:57:49:-> speed_changed_to:0.19428 edited:false
+-------------------------[set downed]-----------------------
+Dec 08,2024 00:58:50:-> player:LukakuMT reason:2 0.3104240345093723
+Dec 08,2024 00:58:50:-> healt:5.8333330154418945 max_health:20.0 speed:0.22188
+-------------------------[set stand]-----------------------
+Dec 08,2024 00:58:59:-> player:LukakuMT reason:Death. code: 004
+Dec 08,2024 00:58:59:-> current_speed:0.186 next_speed:0.22188
+Dec 08,2024 00:58:59:-> speed_changed_to:0.22188 edited:false
+-------------------------[set downed]-----------------------
+Dec 08,2024 00:59:21:-> player:.Deimoss06 reason:2 0.8045292863087944
+Dec 08,2024 00:59:21:-> healt:20.0 max_health:20.0 speed:0.186
+-------------------------[set stand]-----------------------
+Dec 08,2024 00:59:35:-> player:.Deimoss06 reason:Death. code: 004
+Dec 08,2024 00:59:35:-> current_speed:0.186 next_speed:0.186
+Dec 08,2024 00:59:35:-> speed_changed_to:0.186 edited:false
+-------------------------[set downed]-----------------------
+Dec 08,2024 01:00:13:-> player:.Deimoss06 reason:2 0.19809436259289925
+Dec 08,2024 01:00:13:-> healt:20.0 max_health:20.0 speed:0.186
+-------------------------[set stand]-----------------------
+Dec 08,2024 01:00:27:-> player:.Deimoss06 reason:Death. code: 004
+Dec 08,2024 01:00:27:-> current_speed:0.186 next_speed:0.186
+Dec 08,2024 01:00:27:-> speed_changed_to:0.186 edited:false
+-------------------------[set downed]-----------------------
+Dec 08,2024 01:00:51:-> player:.Deimoss06 reason:2 0.4200168320135207
+Dec 08,2024 01:00:51:-> healt:20.0 max_health:20.0 speed:0.186
+Dec 08,2024 01:00:57:-> current_speed:0.04 next_speed:0.186
+Dec 08,2024 01:00:57:-> speed_changed_to:0.186 edited:false
+-------------------------[set stand]-----------------------
+Dec 08,2024 01:00:57:-> player:.Deimoss06 reason:Death. code: 004
+Dec 08,2024 01:00:57:-> current_speed:0.186 next_speed:0.186
+Dec 08,2024 01:00:57:-> speed_changed_to:0.186 edited:false
+-------------------------[set downed]-----------------------
+Dec 08,2024 01:01:05:-> player:LukakuMT reason:2 0.7851657377261345
+Dec 08,2024 01:01:05:-> healt:20.0 max_health:20.0 speed:0.186
+Dec 08,2024 01:01:18:-> current_speed:0.04 next_speed:0.186
+Dec 08,2024 01:01:18:-> speed_changed_to:0.186 edited:false
+-------------------------[set stand]-----------------------
+Dec 08,2024 01:01:18:-> player:LukakuMT reason:Death. code: 004
+Dec 08,2024 01:01:18:-> current_speed:0.186 next_speed:0.186
+Dec 08,2024 01:01:18:-> speed_changed_to:0.186 edited:false
+-------------------------[set downed]-----------------------
+Dec 08,2024 01:01:37:-> player:.Deimoss06 reason:2 0.5983840556963367
+Dec 08,2024 01:01:37:-> healt:20.0 max_health:20.0 speed:0.186
+Dec 08,2024 01:01:51:-> current_speed:0.04 next_speed:0.186
+Dec 08,2024 01:01:51:-> speed_changed_to:0.186 edited:false
+-------------------------[set stand]-----------------------
+Dec 08,2024 01:01:51:-> player:.Deimoss06 reason:Death. code: 004
+Dec 08,2024 01:01:51:-> current_speed:0.186 next_speed:0.186
+Dec 08,2024 01:01:51:-> speed_changed_to:0.186 edited:false
+Dec 08,2024 01:07:31:-> =========REVIVEME DISABLED=========
