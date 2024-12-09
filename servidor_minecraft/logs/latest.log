@@ -1,457 +1,377 @@
-[22:42:57] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[22:42:57] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
-[22:42:57] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[22:42:58] [ServerMain/INFO]: [PluginInitializerManager] Initialized 25 plugins
-[22:42:58] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[10:41:55] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[10:41:55] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
+[10:41:55] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[10:42:00] [ServerMain/INFO]: [PluginInitializerManager] Initialized 25 plugins
+[10:42:00] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - FancyNpcs (2.4.0)
-[22:42:58] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (24):
+[10:42:00] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (24):
  - Crouch-Jump (1.0.0), DecentHolograms (2.8.12), GSit (1.12.0), Geyser-Spigot (2.5.1-SNAPSHOT), GeyserExtras (2.0.0), HoloMobHealth (2.3.11.0), Images (2.5.3), Multiverse-Core (4.3.12), Multiverse-Inventories (4.2.6), Multiverse-Portals (4.2.3), PlaceholderAPI (2.11.6), ProtocolLib (5.4.0-SNAPSHOT-736), Quests (5.1.5-b512), ReviveMe (4.0.7), SkBee (3.5.7), SkinsRestorer (15.5.0), Skript (2.9.0), TreeAssist (7.3.57), ViaBackwards (5.2.0), ViaVersion (5.2.1-SNAPSHOT), WorldEdit (7.3.9+6959-7adf70b), WorldGuard (7.0.13-beta-1+2f13ae0), floodgate (2.2.3-SNAPSHOT (b109-49bd564)), stamina (11.0.0)
-[22:43:02] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:43:04] [ServerMain/INFO]: Loaded 1337 recipes
-[22:43:04] [ServerMain/INFO]: Loaded 1448 advancements
-[22:43:04] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[22:43:04] [Server thread/INFO]: Loading properties
-[22:43:04] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
-[22:43:05] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[22:43:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:43:05] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:43:05] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[22:43:05] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[22:43:05] [Server thread/INFO]: Default game type: SURVIVAL
-[22:43:05] [Server thread/INFO]: Generating keypair
-[22:43:05] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:43:05] [Server thread/INFO]: Using epoll channel type
-[22:43:05] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[22:43:05] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[22:43:06] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[22:43:14] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
-[22:43:14] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3be88cf7]
-[22:43:14] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b109-49bd564)
-[22:43:15] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[22:43:15] [Server thread/INFO]: [floodgate] Took 494ms to boot Floodgate
-[22:43:15] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1-SNAPSHOT
-[22:43:15] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
-[22:43:15] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[22:43:16] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[22:43:16] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[22:43:16] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[22:43:16] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.13-beta-1+2f13ae0
-[22:43:16] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[22:43:16] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
-[22:43:16] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.1-SNAPSHOT
-[22:43:17] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[22:43:17] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[22:43:17] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0-SNAPSHOT-736
-[22:43:17] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.3) has not yet been tested! Proceed with caution.
-[22:43:17] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.9.0
-[22:43:17] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.12.0
-[22:43:17] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.0
-[22:43:17] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v4.2.6
-[22:43:17] [Server thread/INFO]: [GeyserExtras] Loading server plugin GeyserExtras v2.0.0
-[22:43:17] [Server thread/INFO]: [TreeAssist] Loading server plugin TreeAssist v7.3.57
-[22:43:17] [Server thread/INFO]: [TreeAssist] Loading main config file: /config.yml
-[22:43:17] [Server thread/WARN]: [TreeAssist] config.yml: Plugins.AureliumPerBlock expects double, integer given!
-[22:43:17] [Server thread/WARN]: [TreeAssist] config.yml: Plugins.AureliumPerTree expects double, integer given!
-[22:43:17] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/mushroom/mushroom-red.yml
-[22:43:17] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/mushroom/mushroom-brown.yml
-[22:43:17] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/nether.yml
-[22:43:17] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/default.yml
-[22:43:17] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/overworld/tall_spruce.yml
-[22:43:17] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/overworld/tall_oak.yml
-[22:43:17] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/overworld/dark_oak.yml
-[22:43:17] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/overworld/cherry.yml
-[22:43:17] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/overworld/azalea.yml
-[22:43:17] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/overworld/spruce.yml
-[22:43:17] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/overworld/jungle.yml
-[22:43:17] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/overworld/birch.yml
-[22:43:17] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/overworld/acacia.yml
-[22:43:17] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/overworld/mangrove.yml
-[22:43:17] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/overworld/oak.yml
-[22:43:17] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/overworld/tall_jungle.yml
-[22:43:17] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/nether/thick_crimson_fungus.yml
-[22:43:17] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/nether/warped_fungus.yml
-[22:43:17] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/nether/crimson_fungus.yml
-[22:43:17] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/nether/thick_warped_fungus.yml
-[22:43:17] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/mushroom.yml
-[22:43:17] [Server thread/INFO]: [Images] Loading server plugin Images v2.5.3
-[22:43:17] [Server thread/INFO]: [FancyNpcs] Loading server plugin FancyNpcs v2.4.0
-[22:43:17] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.5.7
-[22:43:17] [Server thread/INFO]: [Quests] Loading server plugin Quests v5.1.5-b512
-[22:43:17] [Server thread/INFO]: [ReviveMe] Loading server plugin ReviveMe v4.0.7
-[22:43:17] [Server thread/INFO]: [ReviveMe] Random int generated: 8664997
-[22:43:17] [Server thread/ERROR]: [ReviveMe] Version no support. report to author. version not supported: [-[NYA]-]
-[22:43:17] [Server thread/WARN]: java.lang.NoSuchMethodException: org.bukkit.craftbukkit.inventory.CraftMetaSkull.setProfile(com.mojang.authlib.GameProfile)
-[22:43:17] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2848)
-[22:43:17] [Server thread/WARN]: 	at io.papermc.reflectionrewriter.runtime.AbstractDefaultRulesReflectionProxy.getDeclaredMethod(AbstractDefaultRulesReflectionProxy.java:95)
-[22:43:17] [Server thread/WARN]: 	at io.papermc.paper.pluginremap.reflect.PaperReflectionHolder.getDeclaredMethod(Unknown Source)
-[22:43:17] [Server thread/WARN]: 	at ReviveMe-4.0.7.jar//net.kokoricraft.reviveme.objects.NekoItem.setHeadValue(NekoItem.java:69)
-[22:43:17] [Server thread/WARN]: 	at ReviveMe-4.0.7.jar//net.kokoricraft.reviveme.manager.ConfigManager.loadGpsConfig(ConfigManager.java:888)
-[22:43:17] [Server thread/WARN]: 	at ReviveMe-4.0.7.jar//net.kokoricraft.reviveme.ReviveMe.loadConfig(ReviveMe.java:324)
-[22:43:17] [Server thread/WARN]: 	at ReviveMe-4.0.7.jar//net.kokoricraft.reviveme.ReviveMe.initClass(ReviveMe.java:314)
-[22:43:17] [Server thread/WARN]: 	at ReviveMe-4.0.7.jar//net.kokoricraft.reviveme.ReviveMe.onLoad(ReviveMe.java:130)
-[22:43:17] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59)
-[22:43:17] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18)
-[22:43:17] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39)
-[22:43:17] [Server thread/WARN]: 	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40)
-[22:43:17] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:561)
-[22:43:17] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:289)
-[22:43:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1234)
-[22:43:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
-[22:43:17] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[22:43:17] [Server thread/WARN]: java.lang.NoSuchMethodException: org.bukkit.craftbukkit.inventory.CraftMetaSkull.setProfile(com.mojang.authlib.GameProfile)
-[22:43:17] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2848)
-[22:43:17] [Server thread/WARN]: 	at io.papermc.reflectionrewriter.runtime.AbstractDefaultRulesReflectionProxy.getDeclaredMethod(AbstractDefaultRulesReflectionProxy.java:95)
-[22:43:17] [Server thread/WARN]: 	at io.papermc.paper.pluginremap.reflect.PaperReflectionHolder.getDeclaredMethod(Unknown Source)
-[22:43:17] [Server thread/WARN]: 	at ReviveMe-4.0.7.jar//net.kokoricraft.reviveme.objects.NekoItem.setHeadValue(NekoItem.java:69)
-[22:43:17] [Server thread/WARN]: 	at ReviveMe-4.0.7.jar//net.kokoricraft.reviveme.manager.ConfigManager.loadGpsConfig(ConfigManager.java:888)
-[22:43:17] [Server thread/WARN]: 	at ReviveMe-4.0.7.jar//net.kokoricraft.reviveme.ReviveMe.loadConfig(ReviveMe.java:324)
-[22:43:17] [Server thread/WARN]: 	at ReviveMe-4.0.7.jar//net.kokoricraft.reviveme.ReviveMe.initClass(ReviveMe.java:314)
-[22:43:17] [Server thread/WARN]: 	at ReviveMe-4.0.7.jar//net.kokoricraft.reviveme.ReviveMe.onLoad(ReviveMe.java:130)
-[22:43:17] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59)
-[22:43:17] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18)
-[22:43:17] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39)
-[22:43:17] [Server thread/WARN]: 	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40)
-[22:43:17] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:561)
-[22:43:17] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:289)
-[22:43:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1234)
-[22:43:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
-[22:43:17] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[22:43:17] [Server thread/INFO]: [HoloMobHealth] Loading server plugin HoloMobHealth v2.3.11.0
-[22:43:17] [Server thread/INFO]: [HoloMobHealth] Registering WorldGuard State Flags...
-[22:43:17] [Server thread/INFO]: [Crouch-Jump] Loading server plugin Crouch-Jump v1.0.0
-[22:43:17] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v4.2.3
-[22:43:17] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.0
-[22:43:17] [Server thread/INFO]: [stamina] Loading server plugin stamina v11.0.0
-[22:43:17] [Server thread/INFO]: [stamina] Flag 'stamina-loss' registered successfully.
-[22:43:17] [Server thread/INFO]: [stamina] WorldGuard detected. Enabling related features.
-[22:43:17] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.12
-[22:43:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:43:17] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
-[22:43:17] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[22:43:17] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[22:43:18] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_3.PaperweightAdapter as the Bukkit adapter
-[22:43:18] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0-SNAPSHOT-736
-[22:43:18] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
-[22:43:19] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[22:43:19] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.3.
-[22:43:19] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[22:43:20] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[22:43:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.5.0]
-[22:43:20] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
-[22:43:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:43:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:43:20] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:43:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:43:20] [Server thread/INFO]: Preparing level "world"
-[22:43:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[22:43:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[22:43:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[22:43:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[22:43:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[22:43:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[22:43:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[22:43:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.0
-[22:43:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ad418e4
-[22:43:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[22:43:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[22:43:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[22:43:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[22:43:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:43:21] [Server thread/INFO]: Preparing spawn area: 0%
-[22:43:21] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[22:43:21] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 274.6ms
-[22:43:21] [Server thread/INFO]: Preparing spawn area: 2%
-[22:43:22] [Server thread/INFO]: Preparing spawn area: 2%
-[22:43:22] [Server thread/INFO]: Time elapsed: 1451 ms
-[22:43:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[22:43:22] [Server thread/INFO]: Preparing spawn area: 0%
-[22:43:22] [Server thread/INFO]: Time elapsed: 269 ms
-[22:43:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[22:43:22] [Server thread/INFO]: Preparing spawn area: 0%
-[22:43:22] [Server thread/INFO]: Time elapsed: 104 ms
-[22:43:22] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b109-49bd564)
-[22:43:23] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1-SNAPSHOT
-[22:43:23] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
-[22:43:23] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.13-beta-1+2f13ae0
-[22:43:23] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[22:43:23] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[22:43:23] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[22:43:23] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[22:43:23] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[22:43:23] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[22:43:23] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[22:43:23] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[22:43:23] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[22:43:23] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[22:43:23] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[22:43:23] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[22:43:23] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[22:43:23] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[22:43:23] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[22:43:23] [Server thread/INFO]: [WorldGuard] Loading region data...
-[22:43:23] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[22:43:23] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[22:43:23] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
-[22:43:23] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[22:43:23] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[22:43:24] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
-[22:43:24] [Server thread/INFO]: Preparing spawn area: 0%
-[22:43:24] [Server thread/INFO]: Time elapsed: 383 ms
-[22:43:24] [Server thread/INFO]: [WorldGuard] (spawn) TNT ignition is PERMITTED.
-[22:43:24] [Server thread/INFO]: [WorldGuard] (spawn) Lighters are PERMITTED.
-[22:43:24] [Server thread/INFO]: [WorldGuard] (spawn) Lava fire is PERMITTED.
-[22:43:24] [Server thread/INFO]: [WorldGuard] (spawn) Fire spread is UNRESTRICTED.
-[22:43:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn'
-[22:43:24] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[22:43:24] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[22:43:24] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[22:43:24] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.1-SNAPSHOT
-[22:43:25] [Server thread/INFO]: [Skript] Enabling Skript v2.9.0
-[22:43:25] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] A new version of Skript is available: 2.9.5 (you're currently running 2.9.0)
-[22:43:25] [ForkJoinPool.commonPool-worker-1/INFO]: Download it at: <aqua><u><link:https://github.com/SkriptLang/Skript/releases/download/2.9.5/Skript-2.9.5.jar>https://github.com/SkriptLang/Skript/releases/download/2.9.5/Skript-2.9.5.jar
-[22:43:38] [Server thread/INFO]: [Skript] Loaded 233164 aliases in 13425ms
-[22:43:39] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[22:43:39] [Server thread/INFO]: [GSit] Enabling GSit v1.12.0
-[22:43:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [1.12.0]
-[22:43:39] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
-[22:43:39] [Server thread/INFO]: [GSit] Link with PlaceholderAPI successful!
-[22:43:39] [Server thread/INFO]: [GSit] Link with WorldGuard successful!
-[22:43:39] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.0
-[22:43:39] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v4.2.6
-[22:43:39] [Server thread/INFO]: [Multiverse-Inventories 4.2.6] enabled.
-[22:43:39] [Server thread/INFO]: [GeyserExtras] Enabling GeyserExtras v2.0.0
-[22:43:39] [Server thread/INFO]: [GeyserExtras] --------------GeyserExtras--------------
-[22:43:39] [Server thread/INFO]: [GeyserExtras] Version: 2.0.0-ALPHA-12
-[22:43:39] [Server thread/INFO]: [GeyserExtras] Server Type: SPIGOT
-[22:43:39] [Server thread/INFO]: [GeyserExtras] Floodgate installed: Yes
-[22:43:39] [Server thread/WARN]: [GeyserExtras] WARNING: Floodgate is installed, so GeyserExtras settings will not
-[22:43:39] [Server thread/WARN]: [GeyserExtras] show up in the Game Settings menu due to how forms work on GeyserMC.
-[22:43:39] [Server thread/WARN]: [GeyserExtras] If you want a temporary work around to this, use Geyser-Standalone,
-[22:43:39] [Server thread/WARN]: [GeyserExtras] otherwise a notification toast will show up informing players that
-[22:43:39] [Server thread/WARN]: [GeyserExtras] they will have to run '/ge settings'.
-[22:43:39] [Server thread/INFO]: [GeyserExtras] Loading config...
-[22:43:40] [Server thread/INFO]: [GeyserExtras] Registering events...
-[22:43:40] [Server thread/INFO]: [TreeAssist] Enabling TreeAssist v7.3.57
-[22:43:40] [Server thread/INFO]: [TreeAssist] sending full Metrics! You can deactivate this in the config.yml
-[22:43:40] [Server thread/INFO]: [TreeAssist] debugging: off
-[22:43:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ta [0.0.1]
-[22:43:40] [Server thread/INFO]: [Images] Enabling Images v2.5.3
-[22:43:40] [Thread-16/INFO]: [TreeAssist] Checking for updates...
-[22:43:40] [Server thread/INFO]: [Images] ProtocolLib detected. Enabling generic packet handling...
-[22:43:40] [Server thread/INFO]: [FancyNpcs] Enabling FancyNpcs v2.4.0
-[22:43:40] [Thread-15/WARN]: [GeyserExtras] GeyserExtras is on the latest version.
-[22:43:40] [Server thread/INFO]: [SkBee] Enabling SkBee v3.5.7
-[22:43:40] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs (2.4.0) has been enabled.
-[22:43:41] [ForkJoinPool.commonPool-worker-1/WARN]: [FancyNpcs] 
+[10:42:06] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:42:09] [ServerMain/INFO]: Loaded 1337 recipes
+[10:42:09] [ServerMain/INFO]: Loaded 1448 advancements
+[10:42:09] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[10:42:09] [Server thread/INFO]: Loading properties
+[10:42:09] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[10:42:10] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[10:42:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:42:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:42:10] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[10:42:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[10:42:11] [Server thread/INFO]: Default game type: SURVIVAL
+[10:42:11] [Server thread/INFO]: Generating keypair
+[10:42:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:42:12] [Server thread/INFO]: Using epoll channel type
+[10:42:12] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[10:42:12] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[10:42:13] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[10:42:22] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
+[10:42:23] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@236ca201]
+[10:42:23] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b109-49bd564)
+[10:42:25] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[10:42:25] [Server thread/INFO]: [floodgate] Took 1,435ms to boot Floodgate
+[10:42:25] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1-SNAPSHOT
+[10:42:25] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[10:42:26] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[10:42:26] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[10:42:26] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[10:42:26] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[10:42:27] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.13-beta-1+2f13ae0
+[10:42:27] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[10:42:27] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[10:42:27] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.1-SNAPSHOT
+[10:42:28] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[10:42:28] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[10:42:28] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0-SNAPSHOT-736
+[10:42:28] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.3) has not yet been tested! Proceed with caution.
+[10:42:28] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.9.0
+[10:42:28] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.12.0
+[10:42:28] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.0
+[10:42:28] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v4.2.6
+[10:42:28] [Server thread/INFO]: [GeyserExtras] Loading server plugin GeyserExtras v2.0.0
+[10:42:28] [Server thread/INFO]: [TreeAssist] Loading server plugin TreeAssist v7.3.57
+[10:42:28] [Server thread/INFO]: [TreeAssist] Loading main config file: /config.yml
+[10:42:28] [Server thread/WARN]: [TreeAssist] config.yml: Plugins.AureliumPerBlock expects double, integer given!
+[10:42:28] [Server thread/WARN]: [TreeAssist] config.yml: Plugins.AureliumPerTree expects double, integer given!
+[10:42:28] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/mushroom/mushroom-red.yml
+[10:42:28] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/mushroom/mushroom-brown.yml
+[10:42:28] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/nether.yml
+[10:42:28] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/default.yml
+[10:42:28] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/overworld/tall_spruce.yml
+[10:42:28] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/overworld/tall_oak.yml
+[10:42:28] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/overworld/dark_oak.yml
+[10:42:28] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/overworld/cherry.yml
+[10:42:28] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/overworld/azalea.yml
+[10:42:28] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/overworld/spruce.yml
+[10:42:28] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/overworld/jungle.yml
+[10:42:28] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/overworld/birch.yml
+[10:42:28] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/overworld/acacia.yml
+[10:42:28] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/overworld/mangrove.yml
+[10:42:28] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/overworld/oak.yml
+[10:42:28] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/overworld/tall_jungle.yml
+[10:42:28] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/nether/thick_crimson_fungus.yml
+[10:42:28] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/nether/warped_fungus.yml
+[10:42:28] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/nether/crimson_fungus.yml
+[10:42:28] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/nether/thick_warped_fungus.yml
+[10:42:28] [Server thread/INFO]: [TreeAssist] Loading tree config file: /trees/mushroom.yml
+[10:42:28] [Server thread/INFO]: [Images] Loading server plugin Images v2.5.3
+[10:42:28] [Server thread/INFO]: [FancyNpcs] Loading server plugin FancyNpcs v2.4.0
+[10:42:28] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.5.7
+[10:42:28] [Server thread/INFO]: [Quests] Loading server plugin Quests v5.1.5-b512
+[10:42:28] [Server thread/INFO]: [ReviveMe] Loading server plugin ReviveMe v4.0.7
+[10:42:28] [Server thread/INFO]: [ReviveMe] Random int generated: 2651639
+[10:42:28] [Server thread/ERROR]: [ReviveMe] Version no support. report to author. version not supported: [-[NYA]-]
+[10:42:28] [Server thread/WARN]: java.lang.NoSuchMethodException: org.bukkit.craftbukkit.inventory.CraftMetaSkull.setProfile(com.mojang.authlib.GameProfile)
+[10:42:28] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2848)
+[10:42:28] [Server thread/WARN]: 	at io.papermc.reflectionrewriter.runtime.AbstractDefaultRulesReflectionProxy.getDeclaredMethod(AbstractDefaultRulesReflectionProxy.java:95)
+[10:42:28] [Server thread/WARN]: 	at io.papermc.paper.pluginremap.reflect.PaperReflectionHolder.getDeclaredMethod(Unknown Source)
+[10:42:28] [Server thread/WARN]: 	at ReviveMe-4.0.7.jar//net.kokoricraft.reviveme.objects.NekoItem.setHeadValue(NekoItem.java:69)
+[10:42:28] [Server thread/WARN]: 	at ReviveMe-4.0.7.jar//net.kokoricraft.reviveme.manager.ConfigManager.loadGpsConfig(ConfigManager.java:888)
+[10:42:28] [Server thread/WARN]: 	at ReviveMe-4.0.7.jar//net.kokoricraft.reviveme.ReviveMe.loadConfig(ReviveMe.java:324)
+[10:42:28] [Server thread/WARN]: 	at ReviveMe-4.0.7.jar//net.kokoricraft.reviveme.ReviveMe.initClass(ReviveMe.java:314)
+[10:42:28] [Server thread/WARN]: 	at ReviveMe-4.0.7.jar//net.kokoricraft.reviveme.ReviveMe.onLoad(ReviveMe.java:130)
+[10:42:28] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59)
+[10:42:28] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18)
+[10:42:28] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39)
+[10:42:28] [Server thread/WARN]: 	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40)
+[10:42:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:561)
+[10:42:28] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:289)
+[10:42:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1234)
+[10:42:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
+[10:42:28] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[10:42:28] [Server thread/WARN]: java.lang.NoSuchMethodException: org.bukkit.craftbukkit.inventory.CraftMetaSkull.setProfile(com.mojang.authlib.GameProfile)
+[10:42:28] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2848)
+[10:42:28] [Server thread/WARN]: 	at io.papermc.reflectionrewriter.runtime.AbstractDefaultRulesReflectionProxy.getDeclaredMethod(AbstractDefaultRulesReflectionProxy.java:95)
+[10:42:28] [Server thread/WARN]: 	at io.papermc.paper.pluginremap.reflect.PaperReflectionHolder.getDeclaredMethod(Unknown Source)
+[10:42:28] [Server thread/WARN]: 	at ReviveMe-4.0.7.jar//net.kokoricraft.reviveme.objects.NekoItem.setHeadValue(NekoItem.java:69)
+[10:42:28] [Server thread/WARN]: 	at ReviveMe-4.0.7.jar//net.kokoricraft.reviveme.manager.ConfigManager.loadGpsConfig(ConfigManager.java:888)
+[10:42:28] [Server thread/WARN]: 	at ReviveMe-4.0.7.jar//net.kokoricraft.reviveme.ReviveMe.loadConfig(ReviveMe.java:324)
+[10:42:28] [Server thread/WARN]: 	at ReviveMe-4.0.7.jar//net.kokoricraft.reviveme.ReviveMe.initClass(ReviveMe.java:314)
+[10:42:28] [Server thread/WARN]: 	at ReviveMe-4.0.7.jar//net.kokoricraft.reviveme.ReviveMe.onLoad(ReviveMe.java:130)
+[10:42:28] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59)
+[10:42:28] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18)
+[10:42:28] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39)
+[10:42:28] [Server thread/WARN]: 	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40)
+[10:42:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:561)
+[10:42:28] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:289)
+[10:42:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1234)
+[10:42:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
+[10:42:28] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[10:42:28] [Server thread/INFO]: [HoloMobHealth] Loading server plugin HoloMobHealth v2.3.11.0
+[10:42:28] [Server thread/INFO]: [HoloMobHealth] Registering WorldGuard State Flags...
+[10:42:28] [Server thread/INFO]: [Crouch-Jump] Loading server plugin Crouch-Jump v1.0.0
+[10:42:28] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v4.2.3
+[10:42:28] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.0
+[10:42:28] [Server thread/INFO]: [stamina] Loading server plugin stamina v11.0.0
+[10:42:28] [Server thread/INFO]: [stamina] Flag 'stamina-loss' registered successfully.
+[10:42:28] [Server thread/INFO]: [stamina] WorldGuard detected. Enabling related features.
+[10:42:28] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.12
+[10:42:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:42:29] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
+[10:42:29] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[10:42:29] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[10:42:29] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_3.PaperweightAdapter as the Bukkit adapter
+[10:42:30] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0-SNAPSHOT-736
+[10:42:30] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
+[10:42:31] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[10:42:31] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.3.
+[10:42:31] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[10:42:32] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[10:42:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.5.0]
+[10:42:32] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[10:42:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:42:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:42:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:42:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:42:32] [Server thread/INFO]: Preparing level "world"
+[10:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[10:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[10:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[10:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[10:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[10:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[10:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[10:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.0
+[10:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ad418e4
+[10:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[10:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[10:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[10:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[10:42:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:42:33] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[10:42:34] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 524.7ms
+[10:42:34] [Server thread/INFO]: Preparing spawn area: 0%
+[10:42:34] [Server thread/INFO]: Preparing spawn area: 0%
+[10:42:35] [Server thread/INFO]: Preparing spawn area: 0%
+[10:42:35] [Server thread/INFO]: Preparing spawn area: 0%
+[10:42:35] [Server thread/INFO]: Time elapsed: 1893 ms
+[10:42:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:42:35] [Server thread/INFO]: Preparing spawn area: 0%
+[10:42:35] [Server thread/INFO]: Time elapsed: 388 ms
+[10:42:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:42:35] [Server thread/INFO]: Preparing spawn area: 0%
+[10:42:35] [Server thread/INFO]: Time elapsed: 125 ms
+[10:42:35] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b109-49bd564)
+[10:42:36] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1-SNAPSHOT
+[10:42:36] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
+[10:42:36] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.13-beta-1+2f13ae0
+[10:42:36] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[10:42:36] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[10:42:36] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[10:42:36] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[10:42:36] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[10:42:36] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[10:42:36] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[10:42:36] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[10:42:36] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[10:42:36] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[10:42:36] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[10:42:36] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[10:42:36] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[10:42:36] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[10:42:36] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[10:42:36] [Server thread/INFO]: [WorldGuard] Loading region data...
+[10:42:36] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[10:42:36] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[10:42:37] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[10:42:37] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[10:42:37] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[10:42:37] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
+[10:42:37] [Server thread/INFO]: Preparing spawn area: 0%
+[10:42:37] [Server thread/INFO]: Preparing spawn area: 83%
+[10:42:37] [Server thread/INFO]: Time elapsed: 520 ms
+[10:42:37] [Server thread/INFO]: [WorldGuard] (spawn) TNT ignition is PERMITTED.
+[10:42:37] [Server thread/INFO]: [WorldGuard] (spawn) Lighters are PERMITTED.
+[10:42:37] [Server thread/INFO]: [WorldGuard] (spawn) Lava fire is PERMITTED.
+[10:42:37] [Server thread/INFO]: [WorldGuard] (spawn) Fire spread is UNRESTRICTED.
+[10:42:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn'
+[10:42:37] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[10:42:37] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[10:42:37] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[10:42:37] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.1-SNAPSHOT
+[10:42:38] [Server thread/INFO]: [Skript] Enabling Skript v2.9.0
+[10:42:39] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] A new version of Skript is available: 2.9.5 (you're currently running 2.9.0)
+[10:42:39] [ForkJoinPool.commonPool-worker-1/INFO]: Download it at: <aqua><u><link:https://github.com/SkriptLang/Skript/releases/download/2.9.5/Skript-2.9.5.jar>https://github.com/SkriptLang/Skript/releases/download/2.9.5/Skript-2.9.5.jar
+[10:42:52] [Server thread/INFO]: [Skript] Loaded 233164 aliases in 13686ms
+[10:42:52] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[10:42:52] [Server thread/INFO]: [GSit] Enabling GSit v1.12.0
+[10:42:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [1.12.0]
+[10:42:53] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[10:42:53] [Server thread/INFO]: [GSit] Link with PlaceholderAPI successful!
+[10:42:53] [Server thread/INFO]: [GSit] Link with WorldGuard successful!
+[10:42:53] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.0
+[10:42:53] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v4.2.6
+[10:42:53] [Server thread/INFO]: [Multiverse-Inventories 4.2.6] enabled.
+[10:42:53] [Server thread/INFO]: [GeyserExtras] Enabling GeyserExtras v2.0.0
+[10:42:53] [Server thread/INFO]: [GeyserExtras] --------------GeyserExtras--------------
+[10:42:53] [Server thread/INFO]: [GeyserExtras] Version: 2.0.0-ALPHA-12
+[10:42:53] [Server thread/INFO]: [GeyserExtras] Server Type: SPIGOT
+[10:42:53] [Server thread/INFO]: [GeyserExtras] Floodgate installed: Yes
+[10:42:53] [Server thread/WARN]: [GeyserExtras] WARNING: Floodgate is installed, so GeyserExtras settings will not
+[10:42:53] [Server thread/WARN]: [GeyserExtras] show up in the Game Settings menu due to how forms work on GeyserMC.
+[10:42:53] [Server thread/WARN]: [GeyserExtras] If you want a temporary work around to this, use Geyser-Standalone,
+[10:42:53] [Server thread/WARN]: [GeyserExtras] otherwise a notification toast will show up informing players that
+[10:42:53] [Server thread/WARN]: [GeyserExtras] they will have to run '/ge settings'.
+[10:42:53] [Server thread/INFO]: [GeyserExtras] Loading config...
+[10:42:53] [Server thread/INFO]: [GeyserExtras] Registering events...
+[10:42:53] [Server thread/INFO]: [TreeAssist] Enabling TreeAssist v7.3.57
+[10:42:53] [Server thread/INFO]: [TreeAssist] sending full Metrics! You can deactivate this in the config.yml
+[10:42:53] [Server thread/INFO]: [TreeAssist] debugging: off
+[10:42:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ta [0.0.1]
+[10:42:53] [Thread-16/INFO]: [TreeAssist] Checking for updates...
+[10:42:53] [Server thread/INFO]: [Images] Enabling Images v2.5.3
+[10:42:53] [Server thread/INFO]: [Images] ProtocolLib detected. Enabling generic packet handling...
+[10:42:53] [Server thread/INFO]: [FancyNpcs] Enabling FancyNpcs v2.4.0
+[10:42:53] [Thread-15/WARN]: [GeyserExtras] GeyserExtras is on the latest version.
+[10:42:54] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs (2.4.0) has been enabled.
+[10:42:54] [Server thread/INFO]: [SkBee] Enabling SkBee v3.5.7
+[10:42:54] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[10:42:54] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.3! Trying to find NMS support
+[10:42:54] [Server thread/INFO]: [SkBee] Failed to load NBTApi!
+[10:42:54] [Server thread/INFO]: [SkBee] NBT Elements DISABLED!
+[10:42:54] [Server thread/INFO]: [SkBee]  - Your server version [1.21.3] is not currently supported by the NBT-API
+[10:42:54] [Server thread/INFO]: [SkBee]  - This is not a bug!
+[10:42:54] [Server thread/INFO]: [SkBee]  - NBT elements will resume once the API is updated to work with [1.21.3]
+[10:42:54] [ForkJoinPool.commonPool-worker-1/WARN]: [FancyNpcs] 
 -------------------------------------------------------
 You are not using the latest version of the FancyNpcs plugin.
 Please update to the newest version (2.4.1).
 https://modrinth.com/plugin/FancyNpcs
 -------------------------------------------------------
 
-[22:43:41] [FancyLogger/INFO]: [FancyNpcs] (ForkJoinPool.commonPool-worker-1) WARN: You are not using the latest version of the FancyNpcs plugin.
-[22:43:41] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[22:43:41] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.3! Trying to find NMS support
-[22:43:41] [Server thread/INFO]: [SkBee] Failed to load NBTApi!
-[22:43:41] [Server thread/INFO]: [SkBee] NBT Elements DISABLED!
-[22:43:41] [Server thread/INFO]: [SkBee]  - Your server version [1.21.3] is not currently supported by the NBT-API
-[22:43:41] [Server thread/INFO]: [SkBee]  - This is not a bug!
-[22:43:41] [Server thread/INFO]: [SkBee]  - NBT elements will resume once the API is updated to work with [1.21.3]
-[22:43:41] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[22:43:41] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[22:43:41] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[22:43:41] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[22:43:41] [Server thread/INFO]: [SkBee] Damage Source elements successfully loaded
-[22:43:41] [Server thread/INFO]: [SkBee] Display Entity elements successfully loaded
-[22:43:41] [Server thread/INFO]: [SkBee] Fishing elements successfully loaded
-[22:43:41] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[22:43:41] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[22:43:41] [Server thread/INFO]: [SkBee] RayTrace elements successfully loaded
-[22:43:41] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[22:43:41] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[22:43:41] [Server thread/INFO]: [SkBee] Scoreboard Objective Elements successfully loaded
-[22:43:41] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[22:43:41] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[22:43:41] [Server thread/INFO]: [SkBee] Minecraft Tag elements successfully loaded
-[22:43:41] [Server thread/INFO]: [SkBee] Team Elements successfully loaded
-[22:43:41] [Server thread/INFO]: [SkBee] Tick Manager elements successfully loaded
-[22:43:41] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[22:43:41] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[22:43:41] [Server thread/INFO]: [SkBee] World Border Elements successfully loaded
-[22:43:41] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[22:43:41] [Server thread/INFO]: [SkBee] Chunk Generator Elements disabled via config
-[22:43:41] [Server thread/INFO]: [SkBee] Loaded (386) elements:
-[22:43:41] [Server thread/INFO]: [SkBee]  - 55 events
-[22:43:41] [Server thread/INFO]: [SkBee]  - 60 effects
-[22:43:41] [Server thread/INFO]: [SkBee]  - 235 expressions
-[22:43:41] [Server thread/INFO]: [SkBee]  - 25 conditions
-[22:43:41] [Server thread/INFO]: [SkBee]  - 11 sections
-[22:43:41] [Server thread/INFO]: [SkBee] Checking for update...
-[22:43:41] [Server thread/INFO]: [SkBee] Plugin is not up to date!
-[22:43:41] [Server thread/INFO]: [SkBee]  - Current version: v3.5.7
-[22:43:41] [Server thread/INFO]: [SkBee]  - Available update: v3.6.1
-[22:43:41] [Server thread/INFO]: [SkBee]  - Download available at: https://github.com/ShaneBeee/SkBee/releases
-[22:43:41] [Server thread/INFO]: [SkBee] Successfully enabled v3.5.7 in 0.63 seconds
-[22:43:41] [Server thread/INFO]: [Quests] Enabling Quests v5.1.5-b512
-[22:43:41] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.3! Trying to find NMS support
-[22:43:41] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R2' loaded!
-[22:43:41] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'Quests' to create a bStats instance!
-[22:43:41] [Server thread/WARN]: [Quests] There are new language phrases in /lang/en-US/strings_new.yml for the current version! You must transfer them to, or regenerate, strings.yml to remove this warning!
-[22:43:41] [Server thread/INFO]: [Quests] Loaded language en-US. Translations via Crowdin
-[22:43:41] [Server thread/INFO]: [Quests] Loading storage implementation: YAML
-[22:43:41] [Server thread/INFO]: [ReviveMe] Enabling ReviveMe v4.0.7
-[22:43:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: reviveme [4.0.7]
-[22:43:41] [Server thread/INFO]: [HoloMobHealth] Enabling HoloMobHealth v2.3.11.0
-[22:43:42] [Server thread/INFO]: [HoloMobHealth] Loading languages...
-[22:43:42] [Server thread/INFO]: [HoloMobHealth] Hooked into PlaceholderAPI!
-[22:43:42] [Server thread/INFO]: [HoloMobHealth] Hooked into WorldGuard! (v7)
-[22:43:42] [Server thread/INFO]: [HoloMobHealth] Opened Sqlite database successfully
-[22:43:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: holomobhealth [1.0.0]
-[22:43:43] [Server thread/INFO]: [HoloMobHealth] HoloMobHealth has been Enabled!
-[22:43:43] [Server thread/INFO]: [Crouch-Jump] Enabling Crouch-Jump v1.0.0
-[22:43:43] [Server thread/INFO]: Crouch-Jump by https://KaiserShare.xyz should be running...
-[22:43:43] [Server thread/INFO]: If you like this plugin, give its GitHub repository a star! https://github.com/KaiserByte/Crouch-Jump
-[22:43:43] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.2.3
-[22:43:43] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
-[22:43:43] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
-[22:43:43] [Server thread/INFO]: [Multiverse-Portals 4.2.3]  Enabled - By Rigby and fernferret
-[22:43:43] [Server thread/INFO]: [stamina] Enabling stamina v11.0.0
-[22:43:43] [Server thread/INFO]: [stamina] Core Service loaded
-[22:43:43] [Server thread/INFO]: [stamina] Core event loaded
-[22:43:43] [Server thread/INFO]: [stamina] Stamina Core loaded!
-[22:43:43] [Server thread/INFO]: [stamina] Stamina by ironPhil24k Has been loaded!
-[22:43:43] [Server thread/INFO]: [stamina] Stamina Load config...
-[22:43:43] [Server thread/INFO]: [stamina] Stamina Load Language File...
-[22:43:43] [Server thread/INFO]: [stamina] Stamina Load playerdata...
-[22:43:43] [Server thread/WARN]: [stamina] Vault not found, staminaupgrade and staminaedit and the gui commands will not be available.
-[22:43:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: stamina [11.0.0]
-[22:43:43] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.12
-[22:43:43] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.3! Trying to find NMS support
-[22:43:43] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R2' loaded!
-[22:43:43] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
-[22:43:43] [Server thread/INFO]: [spark] Starting background profiler...
-[22:43:43] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[22:43:43] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[22:43:43] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[22:43:43] [Server thread/INFO]: [Geyser-Spigot] 
-[22:43:43] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.1-b726 (git-master-2019e53)
-[22:43:43] [Server thread/INFO]: [Geyser-Spigot] 
-[22:43:43] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[22:43:46] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[22:43:46] [Server thread/INFO]: [GeyserExtras] Initializing cache...
-[22:43:46] [Server thread/INFO]: [GeyserExtras] Loading cache...
-[22:43:46] [Server thread/INFO]: [GeyserExtras] Checking for updates...
-[22:43:46] [Server thread/INFO]: [GeyserExtras] Loading resources...
-[22:43:46] [Server thread/INFO]: [GeyserExtras] Done! (7.115s)
-[22:43:46] [Server thread/INFO]: [GeyserExtras] ----------------------------------------
-[22:43:46] [Server thread/INFO]: [Geyser-Spigot] Done (3.132s)! Run /geyser help for help!
-[22:43:46] [Server thread/INFO]: Done preparing level "world" (26.919s)
-[22:43:46] [Server thread/INFO]: Running delayed init tasks
-[22:43:46] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[22:43:47] [Server thread/INFO]: [Skript] Loading variables...
-[22:43:47] [Craft Scheduler Thread - 5 - ReviveMe/INFO]: [ReviveMe] There is a new update available.
-[22:43:47] [Craft Scheduler Thread - 5 - ReviveMe/INFO]: [ReviveMe] https://www.spigotmc.org/resources/update.99030/
-[22:43:47] [Server thread/INFO]: [Skript] Loaded 1 variables in 0.0 seconds
-[22:43:47] [Craft Scheduler Thread - 9 - stamina/INFO]: [stamina] You are running the last version of stamina :)
-[22:43:47] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[22:43:47] [Server thread/INFO]: [Skript] Loaded 2 scripts with a total of 3 structures in 0.52 seconds
-[22:43:47] [Server thread/INFO]: [Skript] Finished loading.
-[22:43:47] [Server thread/INFO]: [Multiverse-Inventories] First run!
-[22:43:47] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
-[22:43:47] [Server thread/INFO]: Done (51.466s)! For help, type "help"
-[22:43:47] [Server thread/INFO]: [Quests] Loaded 4 Quest(s), 7 Action(s), 1 Condition(s) and 798 Phrase(s)
-[22:43:48] [Craft Scheduler Thread - 9 - Images/INFO]: [Images] Loaded 0 images...
-[22:43:48] [Craft Scheduler Thread - 8 - HoloMobHealth/INFO]: [HoloMobHealth] Loaded all 1 languages!
-[22:49:39] [User Authenticator #0/INFO]: UUID of player LukakuMT is 4596fc55-df8e-3463-b1c8-b5d46d33857b
-[22:49:40] [Server thread/INFO]: LukakuMT joined the game
-[22:49:40] [Server thread/INFO]: LukakuMT[/127.5.19.232:56249] logged in with entity id 596 at ([spawn]41461.4550569942, 63.0, 2728.80548344577)
-[22:49:50] [Server thread/INFO]: LukakuMT issued server command: /gamemode creative
-[22:49:50] [Server thread/INFO]: [LukakuMT: Set own game mode to Creative Mode]
-[22:49:57] [Server thread/INFO]: LukakuMT issued server command: /holomobhealth
-[22:50:00] [Server thread/INFO]: LukakuMT issued server command: /holomobhealth toggle
-[22:50:01] [Server thread/INFO]: LukakuMT issued server command: /holomobhealth toggle
-[22:52:22] [Server thread/INFO]: LukakuMT issued server command: /plugins
-[22:52:35] [Server thread/INFO]: LukakuMT issued server command: /gamemode spectator
-[22:52:35] [Server thread/INFO]: [LukakuMT: Set own game mode to Spectator Mode]
-[23:02:08] [Server thread/INFO]: LukakuMT issued server command: /gamemode creative
-[23:02:08] [Server thread/INFO]: [LukakuMT: Set own game mode to Creative Mode]
-[23:04:19] [Server thread/INFO]: LukakuMT issued server command: /holomobhealth reload
-[23:04:19] [Server thread/INFO]: [HoloMobHealth] Loading languages...
-[23:04:19] [Craft Scheduler Thread - 82 - HoloMobHealth/INFO]: [HoloMobHealth] Loaded all 1 languages!
-[23:04:56] [Server thread/INFO]: LukakuMT issued server command: /holomobhealth reload
-[23:04:56] [Server thread/INFO]: [HoloMobHealth] Loading languages...
-[23:04:56] [Craft Scheduler Thread - 94 - HoloMobHealth/INFO]: [HoloMobHealth] Loaded all 1 languages!
-[23:11:33] [Server thread/INFO]: LukakuMT issued server command: /mask grass_block
-[23:11:44] [Server thread/INFO]: LukakuMT issued server command: /brush apply sphere set air}
-[23:11:49] [Server thread/INFO]: LukakuMT issued server command: /brush apply sphere 2 set air}
-[23:11:51] [Server thread/INFO]: LukakuMT issued server command: /brush apply sphere 2 set air
-[23:11:53] [Server thread/INFO]: LukakuMT issued server command: /mask grass_block
-[23:13:36] [Server thread/INFO]: LukakuMT issued server command: //smooth grass_block
-[23:13:46] [Server thread/INFO]: LukakuMT issued server command: //smooth grass_block
-[23:13:48] [Server thread/INFO]: LukakuMT issued server command: //smooth grass_block
-[23:13:49] [Server thread/INFO]: LukakuMT issued server command: //smooth grass_block
-[23:13:50] [Server thread/INFO]: LukakuMT issued server command: //smooth grass_block
-[23:14:41] [Server thread/INFO]: LukakuMT issued server command: //br smooth
-[23:14:48] [Server thread/INFO]: LukakuMT issued server command: //br smooth 2
-[23:14:51] [Server thread/INFO]: LukakuMT issued server command: //br smooth 4
-[23:15:38] [Server thread/INFO]: LukakuMT issued server command: /UNDO
-[23:15:41] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:15:42] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:15:42] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:15:44] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:15:45] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:15:45] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:15:45] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:15:53] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:15:53] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:15:54] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:15:54] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:15:54] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:15:55] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:15:55] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:15:56] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:15:56] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:16:28] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:16:29] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:16:29] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:16:33] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:16:52] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:16:52] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:16:53] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:16:54] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:16:55] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:16:56] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:16:57] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:16:58] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:17:02] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:17:17] [Server thread/INFO]: LukakuMT issued server command: //br smooth 1
-[23:19:05] [Server thread/INFO]: LukakuMT issued server command: /mask dirt
-[23:19:30] [Server thread/INFO]: LukakuMT issued server command: //br smooth 5
-[23:19:59] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:20:04] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:20:06] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:20:09] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:20:11] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:20:14] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:20:33] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:20:34] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:20:35] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:20:36] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:20:37] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:20:38] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:20:39] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:20:40] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:20:41] [Server thread/INFO]: LukakuMT issued server command: /undo
-[23:31:26] [Server thread/INFO]: LukakuMT issued server command: /weather clear
-[23:31:26] [Server thread/INFO]: [LukakuMT: Set the weather to clear]
-[23:32:20] [Server thread/INFO]: LukakuMT issued server command: /skins
-[23:32:22] [Folia Async Scheduler Thread #3/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[23:33:43] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username LukugamerMT5985
-[23:33:43] [localSession-7-2/INFO]: [Geyser-Spigot] LukugamerMT5985 (logged in as: LukugamerMT5985) has connected to the Java server
-[23:33:43] [Server thread/INFO]: [floodgate] Floodgate player logged in as .LukugamerMT5985 joined (UUID: 00000000-0000-0000-0009-01f53f5b64e6)
-[23:33:43] [Server thread/INFO]: .LukugamerMT5985 joined the game
-[23:33:43] [Server thread/INFO]: .LukugamerMT5985[/127.0.0.1:0] logged in with entity id 5531 at ([world]9.159731, 104.0, -322.67386)
-[23:33:54] [Geyser player thread-5-1/ERROR]: [org.geysermc.geyser.event.GeyserEventBus] An exception occurred while executing event SessionJoinEvent for subscriber org.geysermc.geyser.event.GeyserEventSubscriber
+[10:42:54] [FancyLogger/INFO]: [FancyNpcs] (ForkJoinPool.commonPool-worker-1) WARN: You are not using the latest version of the FancyNpcs plugin.
+[10:42:54] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[10:42:54] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[10:42:54] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[10:42:54] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[10:42:54] [Server thread/INFO]: [SkBee] Damage Source elements successfully loaded
+[10:42:54] [Server thread/INFO]: [SkBee] Display Entity elements successfully loaded
+[10:42:54] [Server thread/INFO]: [SkBee] Fishing elements successfully loaded
+[10:42:54] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[10:42:54] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[10:42:54] [Server thread/INFO]: [SkBee] RayTrace elements successfully loaded
+[10:42:54] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[10:42:54] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[10:42:54] [Server thread/INFO]: [SkBee] Scoreboard Objective Elements successfully loaded
+[10:42:54] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[10:42:54] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[10:42:54] [Server thread/INFO]: [SkBee] Minecraft Tag elements successfully loaded
+[10:42:54] [Server thread/INFO]: [SkBee] Team Elements successfully loaded
+[10:42:54] [Server thread/INFO]: [SkBee] Tick Manager elements successfully loaded
+[10:42:54] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[10:42:54] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[10:42:54] [Server thread/INFO]: [SkBee] World Border Elements successfully loaded
+[10:42:54] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[10:42:54] [Server thread/INFO]: [SkBee] Chunk Generator Elements disabled via config
+[10:42:54] [Server thread/INFO]: [SkBee] Loaded (386) elements:
+[10:42:54] [Server thread/INFO]: [SkBee]  - 55 events
+[10:42:54] [Server thread/INFO]: [SkBee]  - 60 effects
+[10:42:54] [Server thread/INFO]: [SkBee]  - 235 expressions
+[10:42:54] [Server thread/INFO]: [SkBee]  - 25 conditions
+[10:42:54] [Server thread/INFO]: [SkBee]  - 11 sections
+[10:42:54] [Server thread/INFO]: [SkBee] Checking for update...
+[10:42:54] [Server thread/INFO]: [SkBee] Plugin is not up to date!
+[10:42:54] [Server thread/INFO]: [SkBee]  - Current version: v3.5.7
+[10:42:54] [Server thread/INFO]: [SkBee]  - Available update: v3.6.1
+[10:42:54] [Server thread/INFO]: [SkBee]  - Download available at: https://github.com/ShaneBeee/SkBee/releases
+[10:42:54] [Server thread/INFO]: [SkBee] Successfully enabled v3.5.7 in 0.61 seconds
+[10:42:54] [Server thread/INFO]: [Quests] Enabling Quests v5.1.5-b512
+[10:42:54] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.3! Trying to find NMS support
+[10:42:54] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R2' loaded!
+[10:42:54] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'Quests' to create a bStats instance!
+[10:42:54] [Server thread/WARN]: [Quests] There are new language phrases in /lang/en-US/strings_new.yml for the current version! You must transfer them to, or regenerate, strings.yml to remove this warning!
+[10:42:54] [Server thread/INFO]: [Quests] Loaded language en-US. Translations via Crowdin
+[10:42:54] [Server thread/INFO]: [Quests] Loading storage implementation: YAML
+[10:42:54] [Server thread/INFO]: [ReviveMe] Enabling ReviveMe v4.0.7
+[10:42:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: reviveme [4.0.7]
+[10:42:54] [Server thread/INFO]: [HoloMobHealth] Enabling HoloMobHealth v2.3.11.0
+[10:42:55] [Server thread/INFO]: [HoloMobHealth] Loading languages...
+[10:42:55] [Server thread/INFO]: [HoloMobHealth] Hooked into PlaceholderAPI!
+[10:42:55] [Server thread/INFO]: [HoloMobHealth] Hooked into WorldGuard! (v7)
+[10:42:55] [Server thread/INFO]: [HoloMobHealth] Opened Sqlite database successfully
+[10:42:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: holomobhealth [1.0.0]
+[10:42:55] [Server thread/INFO]: [HoloMobHealth] HoloMobHealth has been Enabled!
+[10:42:55] [Server thread/INFO]: [Crouch-Jump] Enabling Crouch-Jump v1.0.0
+[10:42:55] [Server thread/INFO]: Crouch-Jump by https://KaiserShare.xyz should be running...
+[10:42:55] [Server thread/INFO]: If you like this plugin, give its GitHub repository a star! https://github.com/KaiserByte/Crouch-Jump
+[10:42:55] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.2.3
+[10:42:55] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
+[10:42:55] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
+[10:42:55] [Server thread/INFO]: [Multiverse-Portals 4.2.3]  Enabled - By Rigby and fernferret
+[10:42:55] [Server thread/INFO]: [stamina] Enabling stamina v11.0.0
+[10:42:55] [Server thread/INFO]: [stamina] Core Service loaded
+[10:42:55] [Server thread/INFO]: [stamina] Core event loaded
+[10:42:55] [Server thread/INFO]: [stamina] Stamina Core loaded!
+[10:42:55] [Server thread/INFO]: [stamina] Stamina by ironPhil24k Has been loaded!
+[10:42:55] [Server thread/INFO]: [stamina] Stamina Load config...
+[10:42:55] [Server thread/INFO]: [stamina] Stamina Load Language File...
+[10:42:55] [Server thread/INFO]: [stamina] Stamina Load playerdata...
+[10:42:55] [Server thread/WARN]: [stamina] Vault not found, staminaupgrade and staminaedit and the gui commands will not be available.
+[10:42:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: stamina [11.0.0]
+[10:42:55] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.12
+[10:42:56] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.3! Trying to find NMS support
+[10:42:56] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R2' loaded!
+[10:42:56] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[10:42:56] [Server thread/INFO]: [spark] Starting background profiler...
+[10:42:56] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[10:42:56] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[10:42:56] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[10:42:56] [Server thread/INFO]: [Geyser-Spigot] 
+[10:42:56] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.1-b726 (git-master-2019e53)
+[10:42:56] [Server thread/INFO]: [Geyser-Spigot] 
+[10:42:56] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[10:42:58] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[10:42:59] [Server thread/INFO]: [GeyserExtras] Initializing cache...
+[10:43:00] [Server thread/INFO]: [GeyserExtras] Loading cache...
+[10:43:00] [Server thread/INFO]: [GeyserExtras] Checking for updates...
+[10:43:00] [Server thread/INFO]: [GeyserExtras] Loading resources...
+[10:43:00] [Server thread/INFO]: [GeyserExtras] Done! (7.862s)
+[10:43:00] [Server thread/INFO]: [GeyserExtras] ----------------------------------------
+[10:43:00] [Server thread/INFO]: [Geyser-Spigot] Done (4.461s)! Run /geyser help for help!
+[10:43:00] [Server thread/INFO]: Done preparing level "world" (28.652s)
+[10:43:00] [Server thread/INFO]: Running delayed init tasks
+[10:43:01] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[10:43:01] [Server thread/INFO]: [Skript] Loading variables...
+[10:43:01] [Craft Scheduler Thread - 5 - ReviveMe/INFO]: [ReviveMe] There is a new update available.
+[10:43:01] [Craft Scheduler Thread - 5 - ReviveMe/INFO]: [ReviveMe] https://www.spigotmc.org/resources/update.99030/
+[10:43:01] [Craft Scheduler Thread - 9 - stamina/INFO]: [stamina] You are running the last version of stamina :)
+[10:43:01] [Server thread/INFO]: [Skript] Loaded 1 variables in 0.0 seconds
+[10:43:01] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[10:43:01] [Server thread/INFO]: [Skript] Loaded 2 scripts with a total of 3 structures in 0.39 seconds
+[10:43:01] [Server thread/INFO]: [Skript] Finished loading.
+[10:43:01] [Server thread/INFO]: [Multiverse-Inventories] First run!
+[10:43:01] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[10:43:01] [Server thread/INFO]: Done (67.776s)! For help, type "help"
+[10:43:01] [Server thread/INFO]: [Quests] Loaded 4 Quest(s), 7 Action(s), 1 Condition(s) and 798 Phrase(s)
+[10:43:02] [Craft Scheduler Thread - 8 - HoloMobHealth/INFO]: [HoloMobHealth] Loaded all 1 languages!
+[10:43:02] [Craft Scheduler Thread - 8 - Images/INFO]: [Images] Loaded 0 images...
+[10:45:59] [Server thread/INFO]: Made LukugamerMT5985 a server operator
+[10:46:12] [Server thread/INFO]: Made .LukugammerMT5985 a server operator
+[10:47:13] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username LukugamerMT5985
+[10:47:13] [localSession-7-2/INFO]: [Geyser-Spigot] LukugamerMT5985 (logged in as: LukugamerMT5985) has connected to the Java server
+[10:47:13] [Server thread/INFO]: [floodgate] Floodgate player logged in as .LukugamerMT5985 joined (UUID: 00000000-0000-0000-0009-01f53f5b64e6)
+[10:47:13] [Server thread/INFO]: .LukugamerMT5985 joined the game
+[10:47:13] [Server thread/INFO]: .LukugamerMT5985[/127.0.0.1:0] logged in with entity id 636 at ([spawn]41417.812, 66.0, 2717.4631)
+[10:47:27] [Geyser player thread-5-1/ERROR]: [org.geysermc.geyser.event.GeyserEventBus] An exception occurred while executing event SessionJoinEvent for subscriber org.geysermc.geyser.event.GeyserEventSubscriber
 java.lang.NoSuchMethodError: 'io.netty.channel.EventLoop org.geysermc.geyser.session.GeyserSession.getEventLoop()'
 	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.ExtrasPlayer.startCombatTickThread(ExtrasPlayer.java:107) ~[GeyserExtras.jar:?]
 	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.ExtrasPlayer.startGame(ExtrasPlayer.java:97) ~[GeyserExtras.jar:?]
@@ -471,183 +391,10 @@ java.lang.NoSuchMethodError: 'io.netty.channel.EventLoop org.geysermc.geyser.ses
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[23:34:04] [Server thread/INFO]: LukakuMT issued server command: /tp .LukugamerMT5985 LukakuMT
-[23:34:04] [Server thread/INFO]: [LukakuMT: Teleported .LukugamerMT5985 to LukakuMT]
-[23:34:42] [Geyser player thread-5-1/WARN]: [Geyser-Spigot] Could not translate packet InteractPacket
-java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" is null
-	at java.base/java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936) ~[?:?]
-	at floodgate-spigot.jar/org.geysermc.floodgate.api.SimpleFloodgateApi.getPlayer(SimpleFloodgateApi.java:87) ~[floodgate-spigot.jar:?]
-	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.ExtrasPlayer.sendForm(ExtrasPlayer.java:229) ~[GeyserExtras.jar:?]
-	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.handlers.bedrock.BedrockInteractInjector.translate(BedrockInteractInjector.java:43) ~[GeyserExtras.jar:?]
-	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.handlers.bedrock.BedrockInteractInjector.translate(BedrockInteractInjector.java:19) ~[GeyserExtras.jar:?]
-	at Geyser-Spigot.jar/org.geysermc.geyser.registry.PacketTranslatorRegistry.translate0(PacketTranslatorRegistry.java:90) ~[Geyser-Spigot.jar:?]
-	at Geyser-Spigot.jar/org.geysermc.geyser.registry.PacketTranslatorRegistry.lambda$translate$0(PacketTranslatorRegistry.java:70) ~[Geyser-Spigot.jar:?]
-	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[23:34:42] [Geyser player thread-5-1/WARN]: java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" is null
-[23:34:42] [Geyser player thread-5-1/WARN]: 	at java.base/java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
-[23:34:42] [Geyser player thread-5-1/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.api.SimpleFloodgateApi.getPlayer(SimpleFloodgateApi.java:87)
-[23:34:42] [Geyser player thread-5-1/WARN]: 	at GeyserExtras.jar//dev.letsgoaway.geyserextras.core.ExtrasPlayer.sendForm(ExtrasPlayer.java:229)
-[23:34:42] [Geyser player thread-5-1/WARN]: 	at GeyserExtras.jar//dev.letsgoaway.geyserextras.core.handlers.bedrock.BedrockInteractInjector.translate(BedrockInteractInjector.java:43)
-[23:34:42] [Geyser player thread-5-1/WARN]: 	at GeyserExtras.jar//dev.letsgoaway.geyserextras.core.handlers.bedrock.BedrockInteractInjector.translate(BedrockInteractInjector.java:19)
-[23:34:42] [Geyser player thread-5-1/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.PacketTranslatorRegistry.translate0(PacketTranslatorRegistry.java:90)
-[23:34:42] [Geyser player thread-5-1/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.PacketTranslatorRegistry.lambda$translate$0(PacketTranslatorRegistry.java:70)
-[23:34:42] [Geyser player thread-5-1/WARN]: 	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
-[23:34:42] [Geyser player thread-5-1/WARN]: 	at io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54)
-[23:34:42] [Geyser player thread-5-1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-[23:34:42] [Geyser player thread-5-1/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[23:34:42] [Geyser player thread-5-1/WARN]: 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-[23:34:42] [Geyser player thread-5-1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[23:34:49] [Geyser player thread-5-1/WARN]: [Geyser-Spigot] Could not translate packet InteractPacket
-java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" is null
-	at java.base/java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936) ~[?:?]
-	at floodgate-spigot.jar/org.geysermc.floodgate.api.SimpleFloodgateApi.getPlayer(SimpleFloodgateApi.java:87) ~[floodgate-spigot.jar:?]
-	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.ExtrasPlayer.sendForm(ExtrasPlayer.java:229) ~[GeyserExtras.jar:?]
-	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.handlers.bedrock.BedrockInteractInjector.translate(BedrockInteractInjector.java:43) ~[GeyserExtras.jar:?]
-	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.handlers.bedrock.BedrockInteractInjector.translate(BedrockInteractInjector.java:19) ~[GeyserExtras.jar:?]
-	at Geyser-Spigot.jar/org.geysermc.geyser.registry.PacketTranslatorRegistry.translate0(PacketTranslatorRegistry.java:90) ~[Geyser-Spigot.jar:?]
-	at Geyser-Spigot.jar/org.geysermc.geyser.registry.PacketTranslatorRegistry.lambda$translate$0(PacketTranslatorRegistry.java:70) ~[Geyser-Spigot.jar:?]
-	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[23:34:49] [Geyser player thread-5-1/WARN]: java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" is null
-[23:34:49] [Geyser player thread-5-1/WARN]: 	at java.base/java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
-[23:34:49] [Geyser player thread-5-1/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.api.SimpleFloodgateApi.getPlayer(SimpleFloodgateApi.java:87)
-[23:34:49] [Geyser player thread-5-1/WARN]: 	at GeyserExtras.jar//dev.letsgoaway.geyserextras.core.ExtrasPlayer.sendForm(ExtrasPlayer.java:229)
-[23:34:49] [Geyser player thread-5-1/WARN]: 	at GeyserExtras.jar//dev.letsgoaway.geyserextras.core.handlers.bedrock.BedrockInteractInjector.translate(BedrockInteractInjector.java:43)
-[23:34:49] [Geyser player thread-5-1/WARN]: 	at GeyserExtras.jar//dev.letsgoaway.geyserextras.core.handlers.bedrock.BedrockInteractInjector.translate(BedrockInteractInjector.java:19)
-[23:34:49] [Geyser player thread-5-1/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.PacketTranslatorRegistry.translate0(PacketTranslatorRegistry.java:90)
-[23:34:49] [Geyser player thread-5-1/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.PacketTranslatorRegistry.lambda$translate$0(PacketTranslatorRegistry.java:70)
-[23:34:49] [Geyser player thread-5-1/WARN]: 	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
-[23:34:49] [Geyser player thread-5-1/WARN]: 	at io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54)
-[23:34:49] [Geyser player thread-5-1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-[23:34:49] [Geyser player thread-5-1/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[23:34:49] [Geyser player thread-5-1/WARN]: 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-[23:34:49] [Geyser player thread-5-1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[23:34:55] [Geyser player thread-5-1/WARN]: [Geyser-Spigot] Could not translate packet InteractPacket
-java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" is null
-	at java.base/java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936) ~[?:?]
-	at floodgate-spigot.jar/org.geysermc.floodgate.api.SimpleFloodgateApi.getPlayer(SimpleFloodgateApi.java:87) ~[floodgate-spigot.jar:?]
-	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.ExtrasPlayer.sendForm(ExtrasPlayer.java:229) ~[GeyserExtras.jar:?]
-	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.handlers.bedrock.BedrockInteractInjector.translate(BedrockInteractInjector.java:43) ~[GeyserExtras.jar:?]
-	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.handlers.bedrock.BedrockInteractInjector.translate(BedrockInteractInjector.java:19) ~[GeyserExtras.jar:?]
-	at Geyser-Spigot.jar/org.geysermc.geyser.registry.PacketTranslatorRegistry.translate0(PacketTranslatorRegistry.java:90) ~[Geyser-Spigot.jar:?]
-	at Geyser-Spigot.jar/org.geysermc.geyser.registry.PacketTranslatorRegistry.lambda$translate$0(PacketTranslatorRegistry.java:70) ~[Geyser-Spigot.jar:?]
-	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[23:34:55] [Geyser player thread-5-1/WARN]: java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" is null
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at java.base/java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.api.SimpleFloodgateApi.getPlayer(SimpleFloodgateApi.java:87)
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at GeyserExtras.jar//dev.letsgoaway.geyserextras.core.ExtrasPlayer.sendForm(ExtrasPlayer.java:229)
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at GeyserExtras.jar//dev.letsgoaway.geyserextras.core.handlers.bedrock.BedrockInteractInjector.translate(BedrockInteractInjector.java:43)
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at GeyserExtras.jar//dev.letsgoaway.geyserextras.core.handlers.bedrock.BedrockInteractInjector.translate(BedrockInteractInjector.java:19)
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.PacketTranslatorRegistry.translate0(PacketTranslatorRegistry.java:90)
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.PacketTranslatorRegistry.lambda$translate$0(PacketTranslatorRegistry.java:70)
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54)
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[23:34:55] [Geyser player thread-5-1/WARN]: [Geyser-Spigot] Could not translate packet InteractPacket
-java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" is null
-	at java.base/java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936) ~[?:?]
-	at floodgate-spigot.jar/org.geysermc.floodgate.api.SimpleFloodgateApi.getPlayer(SimpleFloodgateApi.java:87) ~[floodgate-spigot.jar:?]
-	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.ExtrasPlayer.sendForm(ExtrasPlayer.java:229) ~[GeyserExtras.jar:?]
-	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.handlers.bedrock.BedrockInteractInjector.translate(BedrockInteractInjector.java:43) ~[GeyserExtras.jar:?]
-	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.handlers.bedrock.BedrockInteractInjector.translate(BedrockInteractInjector.java:19) ~[GeyserExtras.jar:?]
-	at Geyser-Spigot.jar/org.geysermc.geyser.registry.PacketTranslatorRegistry.translate0(PacketTranslatorRegistry.java:90) ~[Geyser-Spigot.jar:?]
-	at Geyser-Spigot.jar/org.geysermc.geyser.registry.PacketTranslatorRegistry.lambda$translate$0(PacketTranslatorRegistry.java:70) ~[Geyser-Spigot.jar:?]
-	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[23:34:55] [Geyser player thread-5-1/WARN]: java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" is null
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at java.base/java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.api.SimpleFloodgateApi.getPlayer(SimpleFloodgateApi.java:87)
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at GeyserExtras.jar//dev.letsgoaway.geyserextras.core.ExtrasPlayer.sendForm(ExtrasPlayer.java:229)
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at GeyserExtras.jar//dev.letsgoaway.geyserextras.core.handlers.bedrock.BedrockInteractInjector.translate(BedrockInteractInjector.java:43)
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at GeyserExtras.jar//dev.letsgoaway.geyserextras.core.handlers.bedrock.BedrockInteractInjector.translate(BedrockInteractInjector.java:19)
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.PacketTranslatorRegistry.translate0(PacketTranslatorRegistry.java:90)
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.PacketTranslatorRegistry.lambda$translate$0(PacketTranslatorRegistry.java:70)
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54)
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-[23:34:55] [Geyser player thread-5-1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[23:34:56] [Geyser player thread-5-1/WARN]: [Geyser-Spigot] Could not translate packet InteractPacket
-java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" is null
-	at java.base/java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936) ~[?:?]
-	at floodgate-spigot.jar/org.geysermc.floodgate.api.SimpleFloodgateApi.getPlayer(SimpleFloodgateApi.java:87) ~[floodgate-spigot.jar:?]
-	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.ExtrasPlayer.sendForm(ExtrasPlayer.java:229) ~[GeyserExtras.jar:?]
-	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.handlers.bedrock.BedrockInteractInjector.translate(BedrockInteractInjector.java:43) ~[GeyserExtras.jar:?]
-	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.handlers.bedrock.BedrockInteractInjector.translate(BedrockInteractInjector.java:19) ~[GeyserExtras.jar:?]
-	at Geyser-Spigot.jar/org.geysermc.geyser.registry.PacketTranslatorRegistry.translate0(PacketTranslatorRegistry.java:90) ~[Geyser-Spigot.jar:?]
-	at Geyser-Spigot.jar/org.geysermc.geyser.registry.PacketTranslatorRegistry.lambda$translate$0(PacketTranslatorRegistry.java:70) ~[Geyser-Spigot.jar:?]
-	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[23:34:56] [Geyser player thread-5-1/WARN]: java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" is null
-[23:34:56] [Geyser player thread-5-1/WARN]: 	at java.base/java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
-[23:34:56] [Geyser player thread-5-1/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.api.SimpleFloodgateApi.getPlayer(SimpleFloodgateApi.java:87)
-[23:34:56] [Geyser player thread-5-1/WARN]: 	at GeyserExtras.jar//dev.letsgoaway.geyserextras.core.ExtrasPlayer.sendForm(ExtrasPlayer.java:229)
-[23:34:56] [Geyser player thread-5-1/WARN]: 	at GeyserExtras.jar//dev.letsgoaway.geyserextras.core.handlers.bedrock.BedrockInteractInjector.translate(BedrockInteractInjector.java:43)
-[23:34:56] [Geyser player thread-5-1/WARN]: 	at GeyserExtras.jar//dev.letsgoaway.geyserextras.core.handlers.bedrock.BedrockInteractInjector.translate(BedrockInteractInjector.java:19)
-[23:34:56] [Geyser player thread-5-1/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.PacketTranslatorRegistry.translate0(PacketTranslatorRegistry.java:90)
-[23:34:56] [Geyser player thread-5-1/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.PacketTranslatorRegistry.lambda$translate$0(PacketTranslatorRegistry.java:70)
-[23:34:56] [Geyser player thread-5-1/WARN]: 	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
-[23:34:56] [Geyser player thread-5-1/WARN]: 	at io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54)
-[23:34:56] [Geyser player thread-5-1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-[23:34:56] [Geyser player thread-5-1/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[23:34:56] [Geyser player thread-5-1/WARN]: 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-[23:34:56] [Geyser player thread-5-1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[23:35:18] [Server thread/ERROR]: Could not pass event PlayerToggleSneakEvent to Crouch-Jump v1.0.0
-java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
-	at crouch-jump-1.0.1.jar/xyz.kaisershare.crouchjump.Main.onCrouch(Main.java:98) ~[crouch-jump-1.0.1.jar:?]
-	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor365.execute(Unknown Source) ~[?:?]
-	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.handlePlayerCommand(ServerGamePacketListenerImpl.java:2641) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.game.ServerboundPlayerCommandPacket.handle(ServerboundPlayerCommandPacket.java:46) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.game.ServerboundPlayerCommandPacket.handle(ServerboundPlayerCommandPacket.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:55) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[23:35:46] [Server thread/INFO]: .LukugamerMT5985 issued server command: /geyserextras
-[23:35:46] [Server thread/ERROR]: Command exception: /geyserextras
+[10:47:50] [Server thread/INFO]: .LukugamerMT5985 issued server command: /gamemode creative
+[10:48:09] [Server thread/INFO]: .LukugamerMT5985 issued server command: /tp
+[10:48:51] [Server thread/INFO]: .LukugamerMT5985 issued server command: /geyserextras
+[10:48:51] [Server thread/ERROR]: Command exception: /geyserextras
 org.bukkit.command.CommandException: Unhandled exception executing command 'geyserextras' in plugin GeyserExtras v2.0.0
 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
@@ -671,332 +418,97 @@ org.bukkit.command.CommandException: Unhandled exception executing command 'geys
 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:117) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1697) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1329) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
 Caused by: java.lang.NullPointerException: Cannot invoke "java.util.UUID.equals(Object)" because the return value of "dev.letsgoaway.geyserextras.core.ExtrasPlayer.getJavaUUID()" is null
 	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.handlers.GeyserHandler.getPlayer(GeyserHandler.java:77) ~[GeyserExtras.jar:?]
 	at GeyserExtras.jar/dev.letsgoaway.geyserextras.spigot.SpigotCommandHandler.onCommand(SpigotCommandHandler.java:15) ~[GeyserExtras.jar:?]
 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	... 27 more
-[23:35:52] [Server thread/INFO]: LukakuMT issued server command: /geyserextras
-[23:35:52] [Server thread/ERROR]: Command exception: /geyserextras
-org.bukkit.command.CommandException: Unhandled exception executing command 'geyserextras' in plugin GeyserExtras v2.0.0
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2241) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.NullPointerException: Cannot invoke "java.util.UUID.equals(Object)" because the return value of "dev.letsgoaway.geyserextras.core.ExtrasPlayer.getJavaUUID()" is null
-	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.handlers.GeyserHandler.getPlayer(GeyserHandler.java:77) ~[GeyserExtras.jar:?]
-	at GeyserExtras.jar/dev.letsgoaway.geyserextras.spigot.SpigotCommandHandler.onCommand(SpigotCommandHandler.java:15) ~[GeyserExtras.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	... 27 more
-[23:36:09] [Server thread/INFO]: LukakuMT issued server command: /plugins
-[23:36:13] [Server thread/INFO]: LukakuMT issued server command: /geyserextras:listplayers
-[23:36:13] [Server thread/ERROR]: Command exception: /geyserextras:listplayers
-org.bukkit.command.CommandException: Unhandled exception executing command 'geyserextras:listplayers' in plugin GeyserExtras v2.0.0
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2241) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.NullPointerException: Cannot invoke "java.util.UUID.equals(Object)" because the return value of "dev.letsgoaway.geyserextras.core.ExtrasPlayer.getJavaUUID()" is null
-	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.handlers.GeyserHandler.getPlayer(GeyserHandler.java:77) ~[GeyserExtras.jar:?]
-	at GeyserExtras.jar/dev.letsgoaway.geyserextras.spigot.SpigotCommandHandler.onCommand(SpigotCommandHandler.java:15) ~[GeyserExtras.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	... 27 more
-[23:36:19] [Server thread/INFO]: LukakuMT issued server command: /geyserextras reload
-[23:36:19] [Server thread/ERROR]: Command exception: /geyserextras reload
-org.bukkit.command.CommandException: Unhandled exception executing command 'geyserextras' in plugin GeyserExtras v2.0.0
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2241) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.NullPointerException: Cannot invoke "java.util.UUID.equals(Object)" because the return value of "dev.letsgoaway.geyserextras.core.ExtrasPlayer.getJavaUUID()" is null
-	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.handlers.GeyserHandler.getPlayer(GeyserHandler.java:77) ~[GeyserExtras.jar:?]
-	at GeyserExtras.jar/dev.letsgoaway.geyserextras.spigot.SpigotCommandHandler.onCommand(SpigotCommandHandler.java:15) ~[GeyserExtras.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	... 27 more
-[23:36:27] [Server thread/INFO]: LukakuMT issued server command: /geyserextras:players
-[23:36:27] [Server thread/ERROR]: Command exception: /geyserextras:players
-org.bukkit.command.CommandException: Unhandled exception executing command 'geyserextras:players' in plugin GeyserExtras v2.0.0
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2241) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.NullPointerException: Cannot invoke "java.util.UUID.equals(Object)" because the return value of "dev.letsgoaway.geyserextras.core.ExtrasPlayer.getJavaUUID()" is null
-	at GeyserExtras.jar/dev.letsgoaway.geyserextras.core.handlers.GeyserHandler.getPlayer(GeyserHandler.java:77) ~[GeyserExtras.jar:?]
-	at GeyserExtras.jar/dev.letsgoaway.geyserextras.spigot.SpigotCommandHandler.onCommand(SpigotCommandHandler.java:15) ~[GeyserExtras.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	... 27 more
-[23:38:21] [Server thread/ERROR]: Could not pass event PlayerToggleSneakEvent to Crouch-Jump v1.0.0
-java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
-	at crouch-jump-1.0.1.jar/xyz.kaisershare.crouchjump.Main.onCrouch(Main.java:98) ~[crouch-jump-1.0.1.jar:?]
-	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor365.execute(Unknown Source) ~[?:?]
-	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.handlePlayerCommand(ServerGamePacketListenerImpl.java:2641) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.game.ServerboundPlayerCommandPacket.handle(ServerboundPlayerCommandPacket.java:46) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.game.ServerboundPlayerCommandPacket.handle(ServerboundPlayerCommandPacket.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:55) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[23:38:26] [Server thread/ERROR]: Could not pass event PlayerToggleSneakEvent to Crouch-Jump v1.0.0
-java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
-	at crouch-jump-1.0.1.jar/xyz.kaisershare.crouchjump.Main.onCrouch(Main.java:98) ~[crouch-jump-1.0.1.jar:?]
-	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor365.execute(Unknown Source) ~[?:?]
-	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.handlePlayerCommand(ServerGamePacketListenerImpl.java:2641) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.game.ServerboundPlayerCommandPacket.handle(ServerboundPlayerCommandPacket.java:46) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.game.ServerboundPlayerCommandPacket.handle(ServerboundPlayerCommandPacket.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:55) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[23:38:29] [Server thread/WARN]: .LukugamerMT5985 moved wrongly!
-[23:38:58] [Server thread/ERROR]: Could not pass event PlayerToggleSneakEvent to Crouch-Jump v1.0.0
-java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
-	at crouch-jump-1.0.1.jar/xyz.kaisershare.crouchjump.Main.onCrouch(Main.java:98) ~[crouch-jump-1.0.1.jar:?]
-	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor365.execute(Unknown Source) ~[?:?]
-	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.handlePlayerCommand(ServerGamePacketListenerImpl.java:2641) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.game.ServerboundPlayerCommandPacket.handle(ServerboundPlayerCommandPacket.java:46) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.game.ServerboundPlayerCommandPacket.handle(ServerboundPlayerCommandPacket.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:55) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[23:39:45] [localSession-7-2/INFO]: [Geyser-Spigot] LukugamerMT5985 has disconnected from the Java server because of Bedrock client disconnected
-[23:39:45] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .LukugamerMT5985 disconnected
-[23:39:45] [Server thread/INFO]: .LukugamerMT5985 lost connection: Disconnected
-[23:39:45] [Server thread/INFO]: .LukugamerMT5985 left the game
-[23:53:41] [Server thread/INFO]: LukakuMT issued server command: /save-all
-[23:53:41] [Server thread/INFO]: [LukakuMT: Saved the game]
-[23:53:42] [Server thread/INFO]: LukakuMT lost connection: Disconnected
-[23:53:42] [Server thread/INFO]: LukakuMT left the game
-[23:53:54] [Server thread/INFO]: Stopping the server
-[23:53:54] [Server thread/INFO]: Stopping server
-[23:53:54] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.12
-[23:53:54] [Server thread/INFO]: [stamina] Disabling stamina v11.0.0
-[23:53:54] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.0
-[23:53:54] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.3
-[23:53:54] [Server thread/INFO]: [Crouch-Jump] Disabling Crouch-Jump v1.0.0
-[23:53:54] [Server thread/INFO]: Crouch-Jump by https://KaiserShare.xyz has been disabled.
-[23:53:54] [Server thread/INFO]: [HoloMobHealth] Disabling HoloMobHealth v2.3.11.0
-[23:53:54] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion holomobhealth
-[23:53:54] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin HoloMobHealth was disabled.
-[23:53:54] [Server thread/INFO]: [HoloMobHealth] HoloMobHealth has been Disabled!
-[23:53:54] [Server thread/INFO]: [ReviveMe] Disabling ReviveMe v4.0.7
-[23:53:54] [Server thread/INFO]: [Quests] Disabling Quests v5.1.5-b512
-[23:53:54] [Server thread/INFO]: [Quests] Saving Quester data...
-[23:53:54] [Server thread/INFO]: [Quests] Closing storage...
-[23:53:54] [Server thread/INFO]: [SkBee] Disabling SkBee v3.5.7
-[23:53:54] [Server thread/INFO]: [FancyNpcs] Disabling FancyNpcs v2.4.0
-[23:53:54] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs has been disabled.
-[23:53:54] [Server thread/INFO]: [Images] Disabling Images v2.5.3
-[23:53:54] [Server thread/INFO]: [TreeAssist] Disabling TreeAssist v7.3.57
-[23:53:54] [Server thread/INFO]: [GeyserExtras] Disabling GeyserExtras v2.0.0
-[23:53:54] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v4.2.6
-[23:53:54] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.0
-[23:53:54] [Server thread/INFO]: [GSit] Disabling GSit v1.12.0
-[23:53:54] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
-[23:53:54] [Server thread/INFO]: [Skript] Disabling Skript v2.9.0
-[23:53:54] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0-SNAPSHOT-736
-[23:53:54] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.5.1-SNAPSHOT
-[23:53:54] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[23:53:54] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[23:53:54] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
-[23:53:54] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
-[23:53:54] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.13-beta-1+2f13ae0
-[23:53:54] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[23:53:54] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1-SNAPSHOT
-[23:53:54] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[23:53:54] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b109-49bd564)
-[23:53:54] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.9+6959-7adf70b
-[23:53:54] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[23:53:54] [Server thread/INFO]: Saving players
-[23:53:54] [WebSocketConnectReadThread-130/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[23:53:54] [Server thread/INFO]: Saving worlds
-[23:53:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:53:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[23:53:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[23:53:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[23:53:54] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 124 entity chunks, 0 poi chunks in world 'world' in 0.05s
-[23:53:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[23:53:54] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[23:53:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[23:53:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[23:53:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[23:53:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[23:53:54] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 7 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[23:53:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[23:53:54] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[23:53:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[23:53:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[23:53:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[23:53:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[23:53:54] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[23:53:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[23:53:54] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[23:53:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[spawn]'/minecraft:spawn
-[23:53:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'spawn'
-[23:53:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'spawn'
-[23:53:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'spawn'
-[23:53:54] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 156 entity chunks, 0 poi chunks in world 'spawn' in 0.04s
-[23:53:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'spawn'
-[23:53:54] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'spawn'
-[23:53:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:53:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:53:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:53:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (spawn): All chunks are saved
-[23:53:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:53:54] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[23:53:54] [Server thread/INFO]: All I/O tasks to complete
-[23:53:54] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[23:53:54] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+	... 26 more
+[10:50:06] [localSession-7-2/INFO]: [Geyser-Spigot] LukugamerMT5985 has disconnected from the Java server because of Bedrock client disconnected
+[10:50:06] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .LukugamerMT5985 disconnected
+[10:50:06] [Server thread/INFO]: .LukugamerMT5985 lost connection: Disconnected
+[10:50:06] [Server thread/INFO]: .LukugamerMT5985 left the game
+[10:51:11] [Server thread/INFO]: Stopping the server
+[10:51:11] [Server thread/INFO]: Stopping server
+[10:51:11] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.12
+[10:51:11] [Server thread/INFO]: [stamina] Disabling stamina v11.0.0
+[10:51:11] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.0
+[10:51:11] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.3
+[10:51:11] [Server thread/INFO]: [Crouch-Jump] Disabling Crouch-Jump v1.0.0
+[10:51:11] [Server thread/INFO]: Crouch-Jump by https://KaiserShare.xyz has been disabled.
+[10:51:11] [Server thread/INFO]: [HoloMobHealth] Disabling HoloMobHealth v2.3.11.0
+[10:51:11] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion holomobhealth
+[10:51:11] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin HoloMobHealth was disabled.
+[10:51:11] [Server thread/INFO]: [HoloMobHealth] HoloMobHealth has been Disabled!
+[10:51:11] [Server thread/INFO]: [ReviveMe] Disabling ReviveMe v4.0.7
+[10:51:11] [Server thread/INFO]: [Quests] Disabling Quests v5.1.5-b512
+[10:51:11] [Server thread/INFO]: [Quests] Saving Quester data...
+[10:51:11] [Server thread/INFO]: [Quests] Closing storage...
+[10:51:11] [Server thread/INFO]: [SkBee] Disabling SkBee v3.5.7
+[10:51:11] [Server thread/INFO]: [FancyNpcs] Disabling FancyNpcs v2.4.0
+[10:51:11] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs has been disabled.
+[10:51:11] [Server thread/INFO]: [Images] Disabling Images v2.5.3
+[10:51:11] [Server thread/INFO]: [TreeAssist] Disabling TreeAssist v7.3.57
+[10:51:11] [Server thread/INFO]: [GeyserExtras] Disabling GeyserExtras v2.0.0
+[10:51:11] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v4.2.6
+[10:51:11] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.0
+[10:51:11] [Server thread/INFO]: [GSit] Disabling GSit v1.12.0
+[10:51:11] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[10:51:11] [Server thread/INFO]: [Skript] Disabling Skript v2.9.0
+[10:51:11] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0-SNAPSHOT-736
+[10:51:11] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.5.1-SNAPSHOT
+[10:51:11] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[10:51:11] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[10:51:11] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[10:51:11] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[10:51:11] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.13-beta-1+2f13ae0
+[10:51:11] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[10:51:11] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1-SNAPSHOT
+[10:51:11] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[10:51:11] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b109-49bd564)
+[10:51:11] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.9+6959-7adf70b
+[10:51:11] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[10:51:11] [Server thread/INFO]: Saving players
+[10:51:11] [WebSocketConnectReadThread-133/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[10:51:11] [Server thread/INFO]: Saving worlds
+[10:51:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:51:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[10:51:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[10:51:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[10:51:11] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 34 entity chunks, 0 poi chunks in world 'world' in 0.05s
+[10:51:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[10:51:11] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[10:51:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[10:51:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[10:51:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[10:51:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[10:51:11] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 7 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[10:51:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[10:51:11] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[10:51:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[10:51:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[10:51:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[10:51:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[10:51:11] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[10:51:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[10:51:11] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[10:51:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[spawn]'/minecraft:spawn
+[10:51:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'spawn'
+[10:51:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'spawn'
+[10:51:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'spawn'
+[10:51:13] [Server thread/INFO]: [ChunkHolderManager] Saved 754 block chunks, 796 entity chunks, 0 poi chunks in world 'spawn' in 1.31s
+[10:51:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'spawn'
+[10:51:13] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'spawn'
+[10:51:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:51:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:51:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:51:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (spawn): All chunks are saved
+[10:51:13] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:51:13] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[10:51:13] [Server thread/INFO]: All I/O tasks to complete
+[10:51:13] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[10:51:13] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
